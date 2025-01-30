@@ -5,7 +5,7 @@ on:
     paths:
       - 'zh/**'  # 只监听 zh/ 目录的变更
     branches:
-      - main  # 监听 main 分支的提交
+      - master  # 监听 main 分支的提交
 
 jobs:
   translate:
