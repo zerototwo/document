@@ -3,9 +3,9 @@ name: Auto Translate GitBook (zh -> en)
 on:
   push:
     paths:
-      - 'zh/**'  # 只监听 zh/ 目录的变更
+      - 'zh/**'  # 监听 zh/ 目录的变更
     branches:
-      - master  # 监听 main 分支的提交
+      - master  # 监听 master 分支的提交
 
 jobs:
   translate:
@@ -17,12 +17,14 @@ jobs:
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.9'  # 确保使用 Python 3.9+，兼容 deep-translator
 
-      - name: Install Translation Libraries
-        run: pip install googletrans==4.0.0-rc1
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install deep-translator
 
-      - name: Auto Translate Markdown Files
+      - name: Run Translation Script
         run: python translate.py
 
       - name: Commit Translated Files
@@ -30,5 +32,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add en/
-          git commit -m "Auto translate Chinese to English" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "Auto translate Chinese to English"
           git push
