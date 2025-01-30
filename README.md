@@ -4,8 +4,6 @@ icon: hand-wave
 
 # book
 
-
-
 * English
 * Français
 * Español
