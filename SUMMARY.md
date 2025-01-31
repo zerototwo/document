@@ -19,7 +19,7 @@
   * [spring](en/spring/README.md)
   * [springcloud](en/springcloud/README.md)
 * [zh](zh/README.md)
-  * [READE](zh/READE.md)
+  * [READE](zh/en.md)
   * [Summary](zh/SUMMARY.md)
   * [collections](zh/collections/README.md)
   * [springcloud](zh/concurrency/README.md)
