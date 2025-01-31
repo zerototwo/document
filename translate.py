@@ -36,6 +36,22 @@ def translate_markdown(file_path):
 
     print(f"✅ Translated {file_path} -> {new_file_path}")
 
+def sync_en_directory():
+    """ 删除 `en/` 目录中已不存在的翻译文件 """
+    zh_files = {os.path.relpath(f, "zh") for f in glob.glob("zh/**/*.md", recursive=True)}
+    en_files = {os.path.relpath(f, "en") for f in glob.glob("en/**/*.md", recursive=True)}
+
+    # 找到 `en/` 目录中多余的文件
+    extra_files = en_files - zh_files
+
+    for extra_file in extra_files:
+        en_file_path = os.path.join("en", extra_file)
+        os.remove(en_file_path)
+        print(f"🗑️ Removed {en_file_path}")
+
+# 先同步 `en/` 目录，删除多余文件
+sync_en_directory()
+
 # 遍历 `zh/` 目录下的所有 Markdown 文件，并翻译到 `en/`
 for md_file in glob.glob("zh/**/*.md", recursive=True):
     translate_markdown(md_file)

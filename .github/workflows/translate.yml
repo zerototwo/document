@@ -7,17 +7,22 @@ on:
     branches:
       - master  # 监听 master 分支的提交
 
+permissions:
+  contents: write  # 允许 GitHub Actions 修改仓库内容
+
 jobs:
   translate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # 确保使用 Python 3.9+，兼容 deep-translator
+          python-version: '3.9'
 
       - name: Install Dependencies
         run: |
@@ -27,10 +32,10 @@ jobs:
       - name: Run Translation Script
         run: python translate.py
 
-      - name: Commit Translated Files
+      - name: Commit and Push Changes
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add en/
-          git diff --cached --quiet || git commit -m "Auto translate Chinese to English"
-          git push
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A  # 关键：确保 git 追踪所有删除的文件
+          git diff --cached --quiet || git commit -m "Sync translated files"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
