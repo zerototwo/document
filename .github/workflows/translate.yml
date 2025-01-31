@@ -36,6 +36,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
-          git add -A  # 关键：确保 git 追踪所有删除的文件
+          git add -A  # 关键：确保 git 追踪所有新增、修改、删除的文件和目录
           git diff --cached --quiet || git commit -m "Sync translated files"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
