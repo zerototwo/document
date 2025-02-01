@@ -9,69 +9,78 @@ coverY: 0
 
 
 ```mermaid
+graph LR;
+
+    %% 🎀 Cute Collection Framework
+    subgraph "🎀 Cute Java Collection Framework"
+        C1["📦 <b>Collection</b>"]
+        C2["📜 <b>List</b>"]
+        C3["🔢 <b>Set</b>"]
+        C4["📤 <b>Queue</b>"]
+    end
+
+    %% 📋 Cute List Implementations
+    subgraph "📋 Cute List"
+        C2 -->|Implements| L1["📂 <b>ArrayList</b>"]
+        C2 -->|Implements| L2["🔗 <b>LinkedList</b>"]
+        C2 -->|Implements| L3["📦 <b>Vector</b>"]
+        L3 -->|Subclass| L4["📚 <b>Stack</b>"]
+        C2 -->|Thread-Safe| L5["🛡 <b>CopyOnWriteArrayList</b>"]
+    end
+
+    %% 📌 Cute Set Implementations
+    subgraph "📌 Cute Set"
+        C3 -->|Implements| S1["♻️ <b>HashSet</b>"]
+        C3 -->|Implements| S2["📜 <b>LinkedHashSet</b>"]
+        C3 -->|Implements| S3["🌳 <b>SortedSet</b>"]
+        S3 -->|Implements| S4["🌲 <b>TreeSet</b>"]
+        C3 -->|Thread-Safe| S5["🛡 <b>CopyOnWriteArraySet</b>"]
+    end
+
+    %% 🛤 Cute Queue Implementations
+    subgraph "🛤 Cute Queue"
+        C4 -->|Implements| Q1["🔗 <b>LinkedList</b>"]
+        C4 -->|Implements| Q2["📊 <b>PriorityQueue</b>"]
+        C4 -->|Thread-Safe| Q3["⚡ <b>ConcurrentLinkedQueue</b>"]
+        C4 -->|Thread-Safe| Q4["📥 <b>LinkedBlockingQueue</b>"]
+        C4 -->|Thread-Safe| Q5["📤 <b>ArrayBlockingQueue</b>"]
+        C4 -->|Thread-Safe| Q6["🎯 <b>PriorityBlockingQueue</b>"]
+    end
+
+    %% 🌈 Cute Q版 Styling (可爱风格)
+    classDef cuteStyle fill:#FFFAE3,stroke:#FFAC33,stroke-width:3px,rx:15px,ry:15px,shadow:3px,font-size:16px,font-weight:bold;
+    classDef listStyle fill:#D6EAF8,stroke:#3498DB,stroke-width:3px,rx:12px,ry:12px,shadow:5px,font-size:16px,font-weight:bold;
+    classDef setStyle fill:#FADBD8,stroke:#E74C3C,stroke-width:3px,rx:12px,ry:12px,shadow:5px,font-size:16px,font-weight:bold;
+    classDef queueStyle fill:#D5F5E3,stroke:#2ECC71,stroke-width:3px,rx:12px,ry:12px,shadow:5px,font-size:16px,font-weight:bold;
+
+    %% 🎀 Apply Cute Styles
+    class C1,C2,C3,C4 cuteStyle;
+    class L1,L2,L3,L4,L5 listStyle;
+    class S1,S2,S3,S4,S5 setStyle;
+    class Q1,Q2,Q3,Q4,Q5,Q6 queueStyle;
+```
+
+```mermaid
 graph TD;
-    %% Define Subgraphs
-    subgraph "🛠 Collection Framework"
-        A1["📦 Collection"]
-        A2["📜 List"]
-        A3["🔢 Set"]
-        A4["📤 Queue"]
-    end
-
-    subgraph "📋 List Implementations"
-        A2 -->|Implements| L1["📂 ArrayList"]
-        A2 -->|Implements| L2["🔗 LinkedList"]
-        A2 -->|Implements| L3["📦 Vector"]
-        L3 -->|Subclass| L4["📚 Stack"]
-        A2 -->|Thread-Safe| L5["🛡 CopyOnWriteArrayList"]
-    end
-
-    subgraph "📌 Set Implementations"
-        A3 -->|Implements| S1["♻️ HashSet"]
-        A3 -->|Implements| S2["📜 LinkedHashSet"]
-        A3 -->|Implements| S3["🌳 SortedSet"]
-        S3 -->|Implements| S4["🌲 TreeSet"]
-        A3 -->|Thread-Safe| S5["🛡 CopyOnWriteArraySet"]
-    end
-
-    subgraph "🛤 Queue Implementations"
-        A4 -->|Implements| Q1["🔗 LinkedList"]
-        A4 -->|Implements| Q2["📊 PriorityQueue"]
-        A4 -->|Thread-Safe| Q3["⚡ ConcurrentLinkedQueue"]
-        A4 -->|Thread-Safe| Q4["📥 LinkedBlockingQueue"]
-        A4 -->|Thread-Safe| Q5["📤 ArrayBlockingQueue"]
-        A4 -->|Thread-Safe| Q6["🎯 PriorityBlockingQueue"]
-        A4 -->|Implements| Q7["🔀 Deque"]
-        Q7 -->|Implements| Q8["🌀 ArrayDeque"]
-        Q7 -->|Thread-Safe| Q9["🔗 LinkedBlockingDeque"]
-        Q7 -->|Thread-Safe| Q10["🔁 ConcurrentLinkedDeque"]
-    end
-
-    subgraph "🗂 Map Implementations"
-        M1["📜 Map"]
-        M2["🌲 SortedMap"]
+    subgraph "🗂 Cute Java Map"
+        M1["📜 <b>Map</b>"]
+        M2["🌲 <b>SortedMap</b>"]
         
-        M1 -->|Implements| M3["♻️ HashMap"]
-        M3 -->|Subclass| M4["📝 LinkedHashMap"]
-        M1 -->|Implements| M5["🗑 WeakHashMap"]
-        M1 -->|Implements| M6["👥 IdentityHashMap"]
-        M1 -->|Thread-Safe| M7["🛡 Hashtable"]
-        M1 -->|Thread-Safe| M8["⚡ ConcurrentHashMap"]
-        M2 -->|Implements| M9["🌳 TreeMap"]
+        M1 -->|Implements| M3["♻️ <b>HashMap</b>"]
+        M3 -->|Subclass| M4["📝 <b>LinkedHashMap</b>"]
+        M1 -->|Implements| M5["🗑 <b>WeakHashMap</b>"]
+        M1 -->|Implements| M6["👥 <b>IdentityHashMap</b>"]
+        M1 -->|Thread-Safe| M7["🛡 <b>Hashtable</b>"]
+        M1 -->|Thread-Safe| M8["⚡ <b>ConcurrentHashMap</b>"]
+        M2 -->|Implements| M9["🌳 <b>TreeMap</b>"]
     end
 
-    %% Beautify Nodes
-    classDef main fill:#ffeb99,stroke:#f4c542,stroke-width:2px,font-size:14px;
-    classDef list fill:#a3d9ff,stroke:#1e90ff,stroke-width:2px,font-size:14px;
-    classDef set fill:#f9b5d0,stroke:#ff69b4,stroke-width:2px,font-size:14px;
-    classDef queue fill:#a2e8a0,stroke:#32cd32,stroke-width:2px,font-size:14px;
-    classDef map fill:#f5a623,stroke:#ff4500,stroke-width:2px,font-size:14px;
-
-    %% Assign styles
-    class A1,A2,A3,A4,M1,M2 main;
-    class L1,L2,L3,L4,L5 list;
-    class S1,S2,S3,S4,S5 set;
-    class Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10 queue;
-    class M3,M4,M5,M6,M7,M8,M9 map;
+    %% Q版样式
+    classDef qStyle fill:#f9f,stroke:#9370DB,stroke-width:3px,rx:15px,ry:15px,shadow:3px,font-size:14px;
+    classDef mapStyle fill:#FFFAE3,stroke:#FFAC33,stroke-width:3px,rx:12px,ry:12px,shadow:5px,font-size:16px,font-weight:bold;
+    
+    %% 应用样式
+    class M1,M2 qStyle;
+    class M3,M4,M5,M6,M7,M8,M9 mapStyle;
 ```
 
