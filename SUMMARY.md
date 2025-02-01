@@ -9,7 +9,8 @@
 * [Java集合](java/java-ji-he.md)
 * [Java并发](java/java-bing-fa.md)
 * [Java IO/NIO](java/java-io-nio.md)
-* [JVM](java/jvm.md)
+* [Jvm](java/jvm.md)
+* [Java新特性](java/java-xin-te-xing.md)
 
 ## Getting Started
 
