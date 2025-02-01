@@ -20,6 +20,6 @@ graph TD;
     Map --> HashMap
     Map --> SortedMap
     SortedMap --> TreeMap
-    HashMap --> LinkedHashMap// Some code
+    HashMap --> LinkedHashMap
 ````
 
