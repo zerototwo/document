@@ -8,18 +8,16 @@ coverY: 0
 
 <img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
-````mermaid
 ```mermaid
-graph TD;
-    Collection -->|继承| List
-    Collection -->|继承| Set
-    List --> ArrayList
-    List --> LinkedList
-    Set --> HashSet
-    Set --> LinkedHashSet
-    Map --> HashMap
-    Map --> SortedMap
-    SortedMap --> TreeMap
-    HashMap --> LinkedHashMap
-````
+---
+config:
+  look: handDrawn
+  theme: neutral
+---
+flowchart LR
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Continue]
+  B -->|No| D[Stop]
+
+```
 
