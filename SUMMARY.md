@@ -1,12 +1,15 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Java基础](java-ji-chu/README.md)
-  * [⚽ String、StringBuilder和StringBuffer的区别？](java-ji-chu/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
-  * [Page 2](java-ji-chu/page-2/README.md)
-    * [Page 3](java-ji-chu/page-2/page-3.md)
-    * [Page 5](java-ji-chu/page-2/page-5.md)
-  * [Page 4](java-ji-chu/page-4.md)
+
+## JAVA
+
+* [Java基础](java/java-ji-chu/README.md)
+  * [⚽ String、StringBuilder和StringBuffer的区别？](java/java-ji-chu/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
+* [Java集合](java/java-ji-he.md)
+* [Java并发](java/java-bing-fa.md)
+* [Java IO/NIO](java/java-io-nio.md)
+* [JVM](java/jvm.md)
 
 ## Getting Started
 
