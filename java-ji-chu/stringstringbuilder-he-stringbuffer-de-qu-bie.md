@@ -87,7 +87,7 @@ System.out.println(sb);  // Hello World
 
 
 
-### **🚀** 最佳时间
+### **🚀** 最佳实践
 
 在 循环拼接字符串 时，建议使用 StringBuilder，否则 String 会生成大量临时对象，浪费内存。
 
