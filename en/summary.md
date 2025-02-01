@@ -2,208 +2,208 @@
 
 ## 📌 Must-read
 
-* [Must-read 🔖](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/essential/README.md)
+* [Must-read 🔖](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/essential/README.md)
 
 ## Interview essential
 
-* [Interview preparation](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/interview/README.md)
+* [Interview preparation](logging.md)
 
 ## Java basics
 
-* [Java basics](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/java-basics/README.md)
+* [Java basics](microservices/)
 
 ## Collection class
 
-* [Collection framework](collections.md)
+* [Collection framework](distributed.md)
 
 ## Java concurrency
 
-* [Threads & concurrency](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/concurrency/README.md)
+* [Threads & concurrency](interview.md)
 
 ## JVM
 
-* [JVM principles](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/jvm/README.md)
+* [JVM principles](mysql.md)
 
 ## Spring
 
-* [Spring core](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/spring/README.md)
+* [Spring core](broken-reference)
 
 ## SpringCloud
 
-* [SpringCloud introduction](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/springcloud/README.md)
+* [SpringCloud introduction](broken-reference)
 
 ## MySQL
 
-* [MySQL basics](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/mysql/README.md)
+* [MySQL basics](spring.md)
 
 ## MyBatis
 
-* [MyBatis Use](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/mybatis/README.md)
+* [MyBatis Use](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/mybatis/README.md)
 
 ## Tomcat
 
-* [Tomcat configuration](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/tomcat/README.md)
+* [Tomcat configuration](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/tomcat/README.md)
 
 ## Netty
 
-* [Netty network programming](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/netty/README.md)
+* [Netty network programming](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/netty/README.md)
 
 ## Microservices
 
-* [Microservice architecture](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/microservices/README.md)
+* [Microservice architecture](redis.md)
 
 ## Distributed
 
-* [Distributed system](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/distributed/README.md)
+* [Distributed system](jvm.md)
 
 ## Redis
 
-* [Redis cache](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/redis/README.md)
+* [Redis cache](broken-reference)
 
 ## Dubbo
 
-* [Dubbo RPC](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/dubbo/README.md)
+* [Dubbo RPC](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/dubbo/README.md)
 
 ## Kafka
 
-* [Kafka message queue](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/kafka/README.md)
+* [Kafka message queue](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/kafka/README.md)
 
 ## RocketMQ
 
-* [RocketMQ message queue](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/rocketmq/README.md)
+* [RocketMQ message queue](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/rocketmq/README.md)
 
 ## Configuration Center
 
-* [Configuration Center](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/config-center/README.md)
+* [Configuration Center](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/config-center/README.md)
 
 ## ElasticSearch
 
-* [ElasticSearch](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/elasticsearch/README.md)
+* [ElasticSearch](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/elasticsearch/README.md)
 
 ## Zookeeper
 
-* [Zookeeper](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/zookeeper/README.md)
+* [Zookeeper](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/zookeeper/README.md)
 
 ## High performance
 
-* [High performance architecture](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/high-performance/README.md)
+* [High performance architecture](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/high-performance/README.md)
 
 ## High availability
 
-* [High availability system](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/high-availability/README.md)
+* [High availability system](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/high-availability/README.md)
 
 ## High concurrency
 
-* [High concurrency processing](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/high-concurrency/README.md)
+* [High Concurrency Processing](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/high-concurrency/README.md)
 
-## Local cache
+## Local Cache
 
-* [Local cache](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/local-cache/README.md)
+* [Local Cache](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/local-cache/README.md)
 
-## Distributed table
+## Distributed Table
 
-* [Distributed table](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/distributed-table/README.md)
+* [Distributed Table](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/distributed-table/README.md)
 
-## Scheduled task
+## Scheduled Tasks
 
-* [Scheduled task](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/scheduled-task/README.md)
+* [Scheduled Tasks](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/scheduled-task/README.md)
 
-## File processing
+## File Processing
 
-* [File processing](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/file-processing/README.md)
+* [File Processing](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/file-processing/README.md)
 
 ## DDD
 
-* [Domain Driven Design](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/ddd/README.md)
+* [Domain Driven Design](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/ddd/README.md)
 
 ## Maven & Git
 
-* [Maven & Git](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/maven-git/README.md)
+* [Maven & Git](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/maven-git/README.md)
 
 ## IDEA
 
-* [IDEA Usage Tips](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/idea/README.md)
+* [IDEA Usage Tips](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/idea/README.md)
 
-## Logging
+## Logs
 
-* [Logging System](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/logging/README.md)
+* [Log System](others.md)
 
 ## Design Patterns
 
-* [Design Patterns](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/design-patterns/README.md)
+* [Design Patterns](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/design-patterns/README.md)
 
 ## Unit Testing
 
-* [Unit Testing](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/unit-testing/README.md)
+* [Unit Testing](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/unit-testing/README.md)
 
 ## Cloud Computing
 
-* [Cloud Computing](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/cloud-computing/README.md)
+* [Cloud Computing](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/cloud-computing/README.md)
 
 ## Online Troubleshooting
 
-* [Online Troubleshooting](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/online-debugging/README.md)
+* [Online Troubleshooting](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/online-debugging/README.md)
 
-## Computer Network
+## Computer Networks
 
-* [Computer Network](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/computer-network/README.md)
+* [Computer Network](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/computer-network/README.md)
 
 ## Network Security
 
-* [Network Security](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/network-security/README.md)
+* [Network Security](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/network-security/README.md)
 
-## Operating system
+## Operating System
 
-* [Operating system](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/os/README.md)
+* [Operating System](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/os/README.md)
 
-## Data structure
+## Data Structure
 
-* [Data structure](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/data-structure/README.md)
+* [Data Structure](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/data-structure/README.md)
 
 ## Algorithm
 
-* [Algorithm](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/algorithm/README.md)
+* [Algorithm](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/algorithm/README.md)
 
-## Scenario questions
+## Scenario Questions
 
-* [Scenario questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/scenario-questions/README.md)
+* [Scenario questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/scenario-questions/README.md)
 
 ## Architecture design
 
-* [Architecture design](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/architecture-design/README.md)
+* [Architecture design](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/architecture-design/README.md)
 
 ## Programming questions
 
-* [Programming questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/coding-questions/README.md)
+* [Programming questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/coding-questions/README.md)
 
 ## IQ questions
 
-* [IQ questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/iq-questions/README.md)
+* [IQ questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/iq-questions/README.md)
 
 ## Non-technical questions
 
-* [Non-technical questions](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/non-tech/README.md)
+* [Non-technical issues](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/non-tech/README.md)
 
 ## Others
 
-* [Others](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/others/README.md)
+* [Other content](springcloud.md)
 
 ## Other special topics
 
-* [Special topics](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/special-topics/README.md)
+* [Special topics](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/special-topics/README.md)
 
-## Interview experience and practice
+## Interview experience
 
-* [Interview experience and practice](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/interview-experience/README.md)
+* [Interview experience](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/interview-experience/README.md)
 
 ## Project difficulties & highlights
 
-* [Project difficulties & highlights](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/project-highlights/README.md)
+* [Project difficulties & highlights](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/project-highlights/README.md)
 
-## Big company practice
+## Practice in large companies
 
-* [Big company practice](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/big-tech/README.md)
+* [Big-tech practice](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/big-tech/README.md)
 
 ## Oracle
 
-* [Oracle database](https://github.com/zerototwo/zerototwo.github.io/blob/master/en/oracle/README.md)
+* [Oracle database](https://github.com/zerototwo/zerototwo.github.io/blob/master/zh/oracle/README.md)
