@@ -4,22 +4,22 @@
 
 ## JAVA
 
-* [Java基础](java/java-ji-chu/README.md)
-  * [⚽ String、StringBuilder和StringBuffer的区别？](java/java-ji-chu/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
+* [Java基础](java/java-collection/README.md)
+  * [⚽ String、StringBuilder和StringBuffer的区别？](java/java-collection/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
 * [Java集合](java/java-ji-he/README.md)
   * [Java集合分类](java/java-ji-he/java-ji-he-fen-lei.md)
-* [Java并发](java/java-bing-fa.md)
+* [Java并发](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
-* [Java新特性](java/java-xin-te-xing.md)
+* [Java新特性](java/java-new-features.md)
 
-## Spring相关
+## Spring-Framework
 
-* [Page 1](spring-xiang-guan/page-1.md)
+* [Page 1](spring-framework/page-1.md)
 
-## 数据库
+## database
 
-* [Page 2](shu-ju-ku/page-2.md)
+* [Page 2](database/page-2.md)
 
 ## MQ
 
