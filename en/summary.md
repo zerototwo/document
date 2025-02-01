@@ -6,23 +6,23 @@
 
 ## Interview essential
 
-* [Interview preparation](logging.md)
+* [Interview preparation](microservices/)
 
 ## Java basics
 
-* [Java basics](microservices/)
+* [Java basics](broken-reference)
 
 ## Collection class
 
-* [Collection framework](distributed.md)
+* [Collection framework](broken-reference)
 
 ## Java concurrency
 
-* [Threads & concurrency](interview.md)
+* [Threads & concurrency](broken-reference)
 
 ## JVM
 
-* [JVM principles](mysql.md)
+* [JVM principles](broken-reference)
 
 ## Spring
 
@@ -34,7 +34,7 @@
 
 ## MySQL
 
-* [MySQL basics](spring.md)
+* [MySQL basics](broken-reference)
 
 ## MyBatis
 
@@ -50,11 +50,11 @@
 
 ## Microservices
 
-* [Microservice architecture](redis.md)
+* [Microservice architecture](broken-reference)
 
 ## Distributed
 
-* [Distributed system](jvm.md)
+* [Distributed system](broken-reference)
 
 ## Redis
 
@@ -126,7 +126,7 @@
 
 ## Logs
 
-* [Log System](others.md)
+* [Log System](broken-reference)
 
 ## Design Patterns
 
@@ -186,7 +186,7 @@
 
 ## Others
 
-* [Other content](springcloud.md)
+* [Other content](broken-reference)
 
 ## Other special topics
 
