@@ -8,3 +8,18 @@ coverY: 0
 
 <img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
+````mermaid
+```mermaid
+graph TD;
+    Collection -->|继承| List
+    Collection -->|继承| Set
+    List --> ArrayList
+    List --> LinkedList
+    Set --> HashSet
+    Set --> LinkedHashSet
+    Map --> HashMap
+    Map --> SortedMap
+    SortedMap --> TreeMap
+    HashMap --> LinkedHashMap// Some code
+````
+
