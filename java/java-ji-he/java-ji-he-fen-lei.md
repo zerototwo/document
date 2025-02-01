@@ -62,6 +62,8 @@ graph LR;
 
 ```mermaid
 graph TD;
+
+    %% 🗂 Cute Java Map
     subgraph "🗂 Cute Java Map"
         M1["📜 <b>Map</b>"]
         M2["🌲 <b>SortedMap</b>"]
@@ -72,14 +74,17 @@ graph TD;
         M1 -->|Implements| M6["👥 <b>IdentityHashMap</b>"]
         M1 -->|Thread-Safe| M7["🛡 <b>Hashtable</b>"]
         M1 -->|Thread-Safe| M8["⚡ <b>ConcurrentHashMap</b>"]
+
+        %% 🔥 Fix: SortedMap Implements Map
+        M1 -->|Implements| M2
         M2 -->|Implements| M9["🌳 <b>TreeMap</b>"]
     end
 
-    %% Q版样式
+    %% 🌈 Cute Styling (Q版可爱风格)
     classDef qStyle fill:#f9f,stroke:#9370DB,stroke-width:3px,rx:15px,ry:15px,shadow:3px,font-size:14px;
     classDef mapStyle fill:#FFFAE3,stroke:#FFAC33,stroke-width:3px,rx:12px,ry:12px,shadow:5px,font-size:16px,font-weight:bold;
     
-    %% 应用样式
+    %% 🎨 Apply Cute Styles
     class M1,M2 qStyle;
     class M3,M4,M5,M6,M7,M8,M9 mapStyle;
 ```
