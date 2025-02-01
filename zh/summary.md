@@ -6,23 +6,23 @@
 
 ## 面试必备
 
-* [面试准备](logging.md)
+* [面试准备](microservices/)
 
 ## Java 基础
 
-* [Java 基础](microservices/)
+* [Java 基础](broken-reference)
 
 ## 集合类
 
-* [集合框架](distributed.md)
+* [集合框架](broken-reference)
 
 ## Java 并发
 
-* [线程 & 并发](interview.md)
+* [线程 & 并发](broken-reference)
 
 ## JVM
 
-* [JVM 原理](mysql.md)
+* [JVM 原理](broken-reference)
 
 ## Spring
 
@@ -34,7 +34,7 @@
 
 ## MySQL
 
-* [MySQL 基础](spring.md)
+* [MySQL 基础](broken-reference)
 
 ## MyBatis
 
@@ -50,11 +50,11 @@
 
 ## 微服务
 
-* [微服务架构](redis.md)
+* [微服务架构](broken-reference)
 
 ## 分布式
 
-* [分布式系统](jvm.md)
+* [分布式系统](broken-reference)
 
 ## Redis
 
@@ -126,7 +126,7 @@
 
 ## 日志
 
-* [日志系统](others.md)
+* [日志系统](broken-reference)
 
 ## 设计模式
 
@@ -186,7 +186,7 @@
 
 ## 其他
 
-* [其他内容](springcloud.md)
+* [其他内容](broken-reference)
 
 ## 其他专题内容
 
