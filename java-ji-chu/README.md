@@ -1,5 +1,5 @@
 ---
-cover: https://i.pinimg.com/736x/38/1b/b6/381bb6f88d46ec7bba7065a20c44cb07.jpg
+cover: https://i.pinimg.com/1200x/61/b7/95/61b79537ace49b03e401b83e7fae74af.jpg
 coverY: 0
 ---
 
