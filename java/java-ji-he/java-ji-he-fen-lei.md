@@ -124,8 +124,6 @@ List 允许元素 重复，且有序存储，适用于需要频繁 随机访问 
 
 • 多线程环境 ➝ CopyOnWriteArrayList
 
-
-
 ### Set
 
 Set 主要用于存储 唯一值，不允许元素重复，底层通常使用 哈希表或红黑树。
@@ -137,8 +135,6 @@ Set 主要用于存储 唯一值，不允许元素重复，底层通常使用 �
 | TreeSet             | 红黑树（TreeMap）   | ✅ 排序   | ❌ 不安全  |
 | CopyOnWriteArraySet | 动态数组           | ❌ 无序   | ✅ 线程安全 |
 
-
-
 #### Set 选型建议
 
 • 唯一性但无序 ➝ HashSet
@@ -148,8 +144,6 @@ Set 主要用于存储 唯一值，不允许元素重复，底层通常使用 �
 • 唯一性且需要排序 ➝ TreeSet
 
 • 线程安全 ➝ CopyOnWriteArraySet
-
-
 
 ### Queue
 
@@ -163,8 +157,6 @@ Queue 主要用于 先进先出（FIFO） 结构，适合任务调度、消息�
 | LinkedBlockingQueue   | 链表   | ✅ 线程安全 | 支持容量限制       |
 | ArrayBlockingQueue    | 链表   | ✅ 线程安全 | 定长阻塞队列       |
 
-
-
 #### Queue 选型建议
 
 • 普通 FIFO 队列 ➝ LinkedList
@@ -174,8 +166,6 @@ Queue 主要用于 先进先出（FIFO） 结构，适合任务调度、消息�
 • 高并发队列 ➝ ConcurrentLinkedQueue
 
 • 阻塞队列 ➝ LinkedBlockingQueue
-
-
 
 ### Map（键值对存储）
 
@@ -188,8 +178,6 @@ Map 主要用于存储 Key-Value 对象，适用于 快速查找、缓存、索�
 | TreeMap           | 红黑树            | ✅ 按 Key 排序 | ❌ 不安全  |
 | ConcurrentHashMap | CAS + 分段锁      | ❌ 无序       | ✅ 线程安全 |
 
-
-
 #### Map 选型建议
 
 • 无序存储 ➝ HashMap
@@ -200,16 +188,8 @@ Map 主要用于存储 Key-Value 对象，适用于 快速查找、缓存、索�
 
 • 线程安全 ➝ ConcurrentHashMap
 
-#### haha
-• 无序存储 ➝ HashMap
 
-• 有序存储（按插入顺序） ➝ LinkedHashMap
-
-• 排序存储（按 Key 排序） ➝ TreeMap
-
-• 线程安全 ➝ ConcurrentHashMap
 
 ## 总结
 
 Java 集合框架为不同的应用场景提供了 多种数据结构，根据 数据特点、访问方式、并发需求 选择合适的实现类，可以提高 程序性能。
-
