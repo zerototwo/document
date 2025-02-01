@@ -1,6 +1,0 @@
----
-icon: face-glasses
----
-
-# READE
-
