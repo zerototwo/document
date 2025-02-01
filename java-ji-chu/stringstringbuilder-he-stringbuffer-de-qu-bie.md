@@ -2,7 +2,7 @@
 
 在 Java 中，String、StringBuilder 和 StringBuffer 都是用来处理字符串的，但它们在 可变性、线程安全性 和 性能 方面有显著区别：
 
-**1. String（不可变）**
+## **1. String(不可变)**
 
 • **不可变对象**：String 是不可变的（immutable），一旦创建就无法修改，每次修改都会生成新的字符串对象。
 
@@ -28,7 +28,7 @@ System.out.println(s2);  // Hello World// Some code
 问题：由于 String 不可变，每次修改都会生成新的对象，占用额外的内存并降低效率。
 {% endhint %}
 
-2. **StringBuilder（可变，非线程安全）**
+## 2.StringBuilder(可变,非线程安全)
 
 • **可变对象**：StringBuilder 是可变的，修改字符串不会创建新对象，而是在原对象上修改，提高了性能。
 
@@ -53,7 +53,9 @@ System.out.println(sb);  // Hello World
 
 
 
-3. S**tringBuffer（可变，线程安全）**
+## 3.StringBuffer(可变，线程安全)
+
+
 
 * 可变对象：和 StringBuilder 类似，StringBuffer 也是可变的，修改不会创建新对象。
 * 线程安全：方法使用 synchronized 关键字进行同步，因此适用于多线程环境。
@@ -75,7 +77,7 @@ System.out.println(sb);  // Hello World
 
 
 
-4. **总结对比**
+## 4.总结对比
 
 • 用 String：如果字符串不会改变，或字符串修改次数较少（如常量、日志等）。
 
@@ -85,7 +87,7 @@ System.out.println(sb);  // Hello World
 
 
 
-**🚀 最佳实践**
+### **🚀** 最佳时间
 
 在 循环拼接字符串 时，建议使用 StringBuilder，否则 String 会生成大量临时对象，浪费内存。
 
