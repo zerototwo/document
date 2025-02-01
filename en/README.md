@@ -1,4 +1,0 @@
----
-icon: hand-wave
----
-# zh
