@@ -4,14 +4,14 @@
 
 ## JAVA
 
-* [Java基础](java/java-collection/README.md)
-  * [⚽ String、StringBuilder和StringBuffer的区别？](java/java-collection/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
-* [Java集合](java/java-ji-he/README.md)
-  * [Java集合分类](java/java-ji-he/java-ji-he-fen-lei.md)
-* [Java并发](java/java-concurrence.md)
+* [Java-Basics](java/java-basics/README.md)
+  * [⚽ String、StringBuilder和StringBuffer的区别？](java/java-basics/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
+* [Java-Collections](java/java-collections/README.md)
+  * [Java-Collections-Framework](java/java-collections/java-collections-framework.md)
+* [Java-Concurrence](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
-* [Java新特性](java/java-new-features.md)
+* [Java-new-features](java/java-new-features.md)
 
 ## Spring-Framework
 
