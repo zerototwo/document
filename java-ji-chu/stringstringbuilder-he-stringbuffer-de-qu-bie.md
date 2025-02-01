@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1736444387876-cd5949fc7347?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0MjA1MzR8&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # ⚽ String、StringBuilder和StringBuffer的区别？
 
 在 Java 中，String、StringBuilder 和 StringBuffer 都是用来处理字符串的，但它们在 可变性、线程安全性 和 性能 方面有显著区别：
