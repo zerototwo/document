@@ -27,11 +27,11 @@
 
 ## MQ
 
-* [Page 3](mq/page-3.md)
+* [Kafka](mq/kafka.md)
 
 ## NOSQL
 
-* [Page 4](nosql/page-4.md)
+* [Redis](nosql/redis.md)
 
 ## Getting Started
 
