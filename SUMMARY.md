@@ -17,6 +17,7 @@
 
 * [Spring IOC](spring-framework/spring-ioc.md)
 * [Spring AOP](spring-framework/spring-aop.md)
+* [Spring Design mode](spring-framework/spring-design-mode.md)
 
 ## database
 
