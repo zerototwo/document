@@ -16,6 +16,7 @@
 ## Spring-Framework
 
 * [Spring IOC](spring-framework/spring-ioc.md)
+* [Spring AOP](spring-framework/spring-aop.md)
 
 ## database
 
