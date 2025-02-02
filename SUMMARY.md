@@ -23,7 +23,7 @@
 
 ## database
 
-* [Page 2](database/page-2.md)
+* [Mysql](database/mysql.md)
 
 ## MQ
 
