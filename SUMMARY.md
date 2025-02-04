@@ -11,7 +11,8 @@
 * [Java-Concurrence](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
-* [Java-new-features](java/java-new-features.md)
+* [Java-new-features](java/java-new-features/README.md)
+  * [Java9](java/java-new-features/java9.md)
 
 ## Spring-Framework
 
