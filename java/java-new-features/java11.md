@@ -181,7 +181,18 @@ java Hello.java
 
 ### 受影响的 API
 
+| **已移除模块**       | **影响** |
+|----------------------|---------|
+| `java.xml.ws`       | **Web Services API**（JAX-WS） |
+| `java.xml.ws.annotation` | **JAX-WS 注解支持** |
+| `java.xml.bind`      | **JAXB（Java XML Binding）** |
+| `java.xml.bind.annotation` | **JAXB 相关注解** |
+| `java.activation`    | **JavaBeans Activation Framework** |
+| `java.corba`        | **CORBA（远程方法调用）相关 API** |
+| `java.transaction`   | **Java 事务 API（JTA）** |
+| `java.se.ee`        | **Java EE 相关 API，影响 JPA、JTA、JAX-WS** |
 
+---
 
 {% hint style="info" %}
 解决方案：
