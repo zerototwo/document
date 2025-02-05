@@ -15,6 +15,7 @@
   * [Java9](java/java-new-features/java9.md)
   * [Java10](java/java-new-features/java10.md)
   * [Java11](java/java-new-features/java11.md)
+  * [Java12](java/java-new-features/java12.md)
 
 ## Spring-Framework
 
