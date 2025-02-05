@@ -1,5 +1,8 @@
 ---
 description: Java 13 是 短期版本（非 LTS），主要在 语法增强（Text Blocks）、性能优化（ZGC 改进） 方面进行了优化。
+cover: >-
+  https://images.unsplash.com/photo-1736347837458-7cc3697ba57a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3NjUzMzd8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Java13
