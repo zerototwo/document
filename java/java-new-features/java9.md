@@ -1,5 +1,8 @@
 ---
 description: Java 9 引入了多个重要的新特性，包括 模块化系统、增强的 API、GC 改进 等。以下是 Java 9 的核心特性概览：
+cover: >-
+  https://images.unsplash.com/photo-1736880830532-e1a040dae178?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3NDU0NDR8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Java9
