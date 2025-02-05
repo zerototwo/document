@@ -8,4 +8,15 @@ coverY: 0
 ---
 
 # Java11
+## 📌 Java 11 新特性总结表格
 
+| **类别**         | **新特性**                                | **作用** |
+|----------------|--------------------------------|--------------------------------|
+| **语法增强**   | Lambda 变量支持 `var` 关键字      | 让 Lambda 代码风格更统一 |
+| **字符串 API** | `isBlank()` / `strip()` / `lines()` / `repeat()` | 增强字符串处理能力 |
+| **新 HTTP 客户端** | `HttpClient` | 替代 `HttpURLConnection`，支持 HTTP/2 |
+| **GC 改进**   | ZGC（低停顿垃圾回收器）            | 提高吞吐量，减少 Full GC |
+| **并发优化**   | `Flight Recorder` & `JFR`        | 低开销 JVM 监控 |
+| **安全性**     | `Root Certificates`（默认可信 CA 证书） | Java 默认包含 CA 证书 |
+| **多版本 JAR** | `Launch Single-File Programs` | 直接运行 `.java` 文件 |
+| **JDK 轻量化** | **移除 Java EE 和 CORBA** | 精简 JDK，提升运行效率 |
