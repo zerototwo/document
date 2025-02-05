@@ -3,6 +3,9 @@ description: >-
   Java 17 是 长期支持版本（LTS），是 Java 11 之后的重要更新。它带来了 sealed class（正式版）、Pattern
   Matching for switch、ZGC 进一步优化、Foreign Function & Memory API 等正式特性，并移除了
   Security Manager。
+cover: >-
+  https://images.unsplash.com/photo-1736244032196-5d604770aba8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3NzIzNTN8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Java17
