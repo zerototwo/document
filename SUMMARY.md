@@ -20,6 +20,7 @@
   * [Java14](java/java-new-features/java14.md)
   * [Java15](java/java-new-features/java15.md)
   * [Java16](java/java-new-features/java16.md)
+  * [Java17](java/java-new-features/java17.md)
 
 ## Spring-Framework
 
