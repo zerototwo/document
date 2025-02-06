@@ -1,5 +1,8 @@
 ---
 description: 在 Java 中，集合（Collection）可以按照多种方式进行排序，主要包括
+cover: >-
+  https://images.unsplash.com/photo-1735022734031-ae0565a2554b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4NTYxNTN8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Java Collection Sorting
