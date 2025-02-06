@@ -15,7 +15,6 @@ coverY: 0
 | **开发工具** | 内置简易 Web 服务器（JEP 408）    | 提供 `jwebserver`，可快速启动静态 Web 服务器，便于开发测试。             |
 | **文档优化** | Java API 文档代码片段（JEP 413） | Javadoc 新增 `@snippet`，提升代码示例的可读性和维护性。               |
 | **反射优化** | 方法句柄优化反射机制（JEP 416）      | 使用 `MethodHandle` 重新实现 `java.lang.reflect`，提高性能。    |
-| **网络增强** | 互联网地址解析 SPI（JEP 418）     | 允许 Java 开发者自定义 `InetAddress` 的主机解析行为。               |
 | **安全性**  | 弃用终结器（JEP 421）           | 计划移除 `finalize()`，鼓励使用 `try-with-resources` 进行资源管理。 |
 
 ## 1.JEP 400：默认字符集 UTF-8
