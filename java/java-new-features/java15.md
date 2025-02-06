@@ -1,5 +1,8 @@
 ---
 description: Java 15 是 短期版本（非 LTS），主要引入了 sealed class（密封类）、record（正式支持）、ZGC 改进、文本块增强 等新特性。
+cover: >-
+  https://images.unsplash.com/photo-1735467547583-d9fc4503f238?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4NDM2ODN8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Java15
