@@ -8,7 +8,7 @@ cover: >-
 coverY: 0
 ---
 
-# Java集合分类
+# Java-Collections-Framework
 
 ## Java 集合框架概述
 
@@ -35,7 +35,7 @@ graph LR;
     subgraph "📋 Cute List"
         C2 -->|Implements| L1["📂 <b>ArrayList</b>"]
         C2 -->|Implements| L2["🔗 <b>LinkedList</b>"]
-        C2 -->|Implements| L3["📦 <b>Vector</b>"]
+        C2 -->|Thread-Safe| L3["📦 <b>Vector</b>"]
         L3 -->|Subclass| L4["📚 <b>Stack</b>"]
         C2 -->|Thread-Safe| L5["🛡 <b>CopyOnWriteArrayList</b>"]
     end
