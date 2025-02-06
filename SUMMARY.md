@@ -6,6 +6,7 @@
 
 * [Java-Basics](java/java-basics/README.md)
   * [⚽ String、StringBuilder和StringBuffer的区别？](java/java-basics/stringstringbuilder-he-stringbuffer-de-qu-bie.md)
+  * [Java transient](java/java-basics/java-transient.md)
 * [Java-Collections](java/java-collections/README.md)
   * [Java-Collections-Framework](java/java-collections/java-collections-framework.md)
   * [Java Collection Sorting](java/java-collections/java-collection-sorting.md)
