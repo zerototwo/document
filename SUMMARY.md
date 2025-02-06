@@ -21,6 +21,7 @@
   * [Java15](java/java-new-features/java15.md)
   * [Java16](java/java-new-features/java16.md)
   * [Java17](java/java-new-features/java17.md)
+  * [Java18](java/java-new-features/java18.md)
 
 ## Spring-Framework
 
