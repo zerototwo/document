@@ -1,5 +1,8 @@
 ---
 description: transient 关键字是 Java 序列化机制中的修饰符，用于标记不需要序列化的字段。
+cover: >-
+  https://images.unsplash.com/photo-1736251513671-3175c0896fb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5MzMyMDB8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Java transient
