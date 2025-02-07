@@ -14,6 +14,7 @@
   * [ArrayList vs LinkedList vs Vector](java/java-collections/arraylist-vs-linkedlist-vs-vector.md)
   * [ArrayList subList()](java/java-collections/arraylist-sublist.md)
   * [ArrayList transient used in underlying array](java/java-collections/arraylist-transient-used-in-underlying-array.md)
+  * [Hash conflict solutions](java/java-collections/hash-conflict-solutions.md)
 * [Java-Concurrence](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
