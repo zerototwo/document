@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1735666119059-13bc55dc4aaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5MzQ1NTR8&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # ArrayList transient used in underlying array
 
 在 ArrayList 的源码中，我们可以看到其底层数组 elementData 被标记为 transient
