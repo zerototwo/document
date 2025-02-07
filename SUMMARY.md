@@ -15,6 +15,7 @@
   * [ArrayList subList()](java/java-collections/arraylist-sublist.md)
   * [ArrayList transient used in underlying array](java/java-collections/arraylist-transient-used-in-underlying-array.md)
   * [Hash conflict solutions](java/java-collections/hash-conflict-solutions.md)
+  * [HashMap JDK 1.7 vs JDK 1.8](java/java-collections/hashmap-jdk-1.7-vs-jdk-1.8.md)
 * [Java-Concurrence](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
