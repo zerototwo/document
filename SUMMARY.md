@@ -13,6 +13,7 @@
   * [Fail-Fast vs Fail-Safe](java/java-collections/fail-fast-vs-fail-safe.md)
   * [ArrayList vs LinkedList vs Vector](java/java-collections/arraylist-vs-linkedlist-vs-vector.md)
   * [ArrayList subList()](java/java-collections/arraylist-sublist.md)
+  * [ArrayList transient used in underlying array](java/java-collections/arraylist-transient-used-in-underlying-array.md)
 * [Java-Concurrence](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
