@@ -46,7 +46,8 @@
 
 ## database
 
-* [Mysql](database/mysql.md)
+* [Mysql](database/mysql/README.md)
+  * [MySQL逻辑架构](database/mysql/mysql-luo-ji-jia-gou.md)
 
 ## MQ
 
