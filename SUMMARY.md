@@ -18,6 +18,7 @@
   * [Map](java/java-collections/map/README.md)
     * [Hash conflict solutions](java/java-collections/map/hash-conflict-solutions.md)
     * [HashMap JDK 1.7 vs JDK 1.8](java/java-collections/map/hashmap-jdk-1.7-vs-jdk-1.8.md)
+    * [Guarantee capacity to a power of 2](java/java-collections/map/guarantee-capacity-to-a-power-of-2.md)
 * [Java-Concurrence](java/java-concurrence.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
