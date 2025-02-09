@@ -49,6 +49,7 @@
 * [Mysql](database/mysql/README.md)
   * [MySQL逻辑架构](database/mysql/mysql-luo-ji-jia-gou.md)
   * [一条 SQL 是如何执行的？](database/mysql/yi-tiao-sql-shi-ru-he-zhi-xing-de.md)
+  * [InnoDB vs. MyISAM](database/mysql/innodb-vs.-myisam.md)
 
 ## MQ
 
