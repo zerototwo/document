@@ -52,6 +52,10 @@
   * [InnoDB vs. MyISAM](database/mysql/innodb-vs.-myisam.md)
   * [索引相关](database/mysql/suo-yin-xiang-guan/README.md)
     * [什么是索引，为什么需要索引？](database/mysql/suo-yin-xiang-guan/shen-me-shi-suo-yin-wei-shen-me-xu-yao-suo-yin.md)
+    * [MySQL 支持哪些索引类型？](database/mysql/suo-yin-xiang-guan/mysql-zhi-chi-na-xie-suo-yin-lei-xing.md)
+    * [聚簇索引（Clustered Index） vs 非聚簇索引（Non-clustered Index）](database/mysql/suo-yin-xiang-guan/ju-cu-suo-yin-clustered-index-vs-fei-ju-cu-suo-yin-nonclustered-index.md)
+    * [B+ 树索引 vs. Hash 索引](database/mysql/suo-yin-xiang-guan/b+-shu-suo-yin-vs.-hash-suo-yin.md)
+    * [MySQL 为什么使用 B+ 树索引？](database/mysql/suo-yin-xiang-guan/mysql-wei-shen-me-shi-yong-b+-shu-suo-yin.md)
 
 ## MQ
 
