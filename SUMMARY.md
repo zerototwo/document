@@ -60,7 +60,8 @@
     * [覆盖索引（Covering Index） vs 索引下推（Index Condition Pushdown, ICP）](database/mysql/suo-yin-xiang-guan/fu-gai-suo-yin-covering-index-vs-suo-yin-xia-tui-index-condition-pushdown-icp.md)
   * [事务](database/mysql/shi-wu/README.md)
     * [MySQL 事务的 原子性 (Atomicity) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-yuan-zi-xing-atomicity-shi-xian-yuan-li.md)
-    * [Page 3](database/mysql/shi-wu/page-3.md)
+    * [MySQL 事务的 一致性 (Consistency) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-yi-zhi-xing-consistency-shi-xian-yuan-li.md)
+    * [MySQL 事务的 隔离性 (Isolation) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-ge-li-xing-isolation-shi-xian-yuan-li.md)
 
 ## MQ
 
