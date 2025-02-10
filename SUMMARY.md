@@ -56,6 +56,7 @@
     * [聚簇索引（Clustered Index） vs 非聚簇索引（Non-clustered Index）](database/mysql/suo-yin-xiang-guan/ju-cu-suo-yin-clustered-index-vs-fei-ju-cu-suo-yin-nonclustered-index.md)
     * [B+ 树索引 vs. Hash 索引](database/mysql/suo-yin-xiang-guan/b+-shu-suo-yin-vs.-hash-suo-yin.md)
     * [MySQL 为什么使用 B+ 树索引？](database/mysql/suo-yin-xiang-guan/mysql-wei-shen-me-shi-yong-b+-shu-suo-yin.md)
+    * [MySQL 最左匹配原则（Leftmost Prefix Matching）](database/mysql/suo-yin-xiang-guan/mysql-zui-zuo-pi-pei-yuan-ze-leftmost-prefix-matching.md)
 
 ## MQ
 
