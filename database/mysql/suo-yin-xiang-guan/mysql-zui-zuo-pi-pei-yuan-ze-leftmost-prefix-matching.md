@@ -24,5 +24,25 @@ CREATE INDEX idx_user ON users(name, age, city);
 name → age → city
 ```
 
+## ✅3. 索引生效的查询
 
+| SQL 语句                                                 | 是否使用索引 | 说明                              |
+| ------------------------------------------------------ | ------ | ------------------------------- |
+| `WHERE name = 'Alice'`                                 | ✅      | 匹配索引的最左列                        |
+| `WHERE name = 'Alice' AND age = 25`                    | ✅      | 索引前两列匹配，索引生效                    |
+| `WHERE name = 'Alice' AND age = 25 AND city = 'Paris'` | ✅      | 完整匹配，最优情况                       |
+| `WHERE name LIKE 'A%'`                                 | ✅      | 前缀匹配，索引生效                       |
+| `WHERE name = 'Alice' AND city = 'Paris'`              | ✅      | 部分索引生效，但 `age` 被跳过              |
+| `WHERE name = 'Alice' AND age > 20`                    | ✅      | 范围查询 `age > 20` 后，`city` 不再使用索引 |
+
+***
+
+## &#x20;4. 索引失效的查询
+
+| SQL 语句                              | 是否使用索引 | 说明                     |
+| ----------------------------------- | ------ | ---------------------- |
+| `WHERE age = 25`                    | ❌      | 跳过 `name`，索引失效         |
+| `WHERE city = 'Paris'`              | ❌      | 跳过 `name` 和 `age`，索引失效 |
+| `WHERE age = 25 AND city = 'Paris'` | ❌      | 跳过 `name`，索引失效         |
+| `WHERE name LIKE '%Alice%'`         | ❌      | 索引失效，前缀匹配丢失            |
 
