@@ -59,7 +59,7 @@
     * [MySQL 最左匹配原则（Leftmost Prefix Matching）](database/mysql/suo-yin-xiang-guan/mysql-zui-zuo-pi-pei-yuan-ze-leftmost-prefix-matching.md)
     * [覆盖索引（Covering Index） vs 索引下推（Index Condition Pushdown, ICP）](database/mysql/suo-yin-xiang-guan/fu-gai-suo-yin-covering-index-vs-suo-yin-xia-tui-index-condition-pushdown-icp.md)
   * [事务](database/mysql/shi-wu/README.md)
-    * [Page 2](database/mysql/shi-wu/page-2.md)
+    * [MySQL 事务的 原子性 (Atomicity) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-yuan-zi-xing-atomicity-shi-xian-yuan-li.md)
     * [Page 3](database/mysql/shi-wu/page-3.md)
 
 ## MQ
