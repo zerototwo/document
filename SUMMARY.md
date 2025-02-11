@@ -51,6 +51,7 @@
   * [一条 SQL 是如何执行的？](database/mysql/yi-tiao-sql-shi-ru-he-zhi-xing-de.md)
   * [InnoDB vs. MyISAM](database/mysql/innodb-vs.-myisam.md)
   * [页分裂与页合并](database/mysql/ye-fen-lie-yu-ye-he-bing.md)
+  * [如何避免 InnoDB 页分裂？](database/mysql/ru-he-bi-mian-innodb-ye-fen-lie.md)
   * [索引相关](database/mysql/suo-yin-xiang-guan/README.md)
     * [什么是索引，为什么需要索引？](database/mysql/suo-yin-xiang-guan/shen-me-shi-suo-yin-wei-shen-me-xu-yao-suo-yin.md)
     * [MySQL 支持哪些索引类型？](database/mysql/suo-yin-xiang-guan/mysql-zhi-chi-na-xie-suo-yin-lei-xing.md)
