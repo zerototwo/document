@@ -40,7 +40,7 @@ coverY: 0
 
 ## 3.示例
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Page split and Page merge</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Page split and Page merge</p></figcaption></figure>
 
 ## 4.总结
 

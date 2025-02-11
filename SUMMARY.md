@@ -49,9 +49,6 @@
 * [Mysql](database/mysql/README.md)
   * [MySQL逻辑架构](database/mysql/mysql-luo-ji-jia-gou.md)
   * [一条 SQL 是如何执行的？](database/mysql/yi-tiao-sql-shi-ru-he-zhi-xing-de.md)
-  * [InnoDB vs. MyISAM](database/mysql/innodb-vs.-myisam.md)
-  * [页分裂与页合并](database/mysql/ye-fen-lie-yu-ye-he-bing.md)
-  * [如何避免 InnoDB 页分裂？](database/mysql/ru-he-bi-mian-innodb-ye-fen-lie.md)
   * [索引相关](database/mysql/suo-yin-xiang-guan/README.md)
     * [什么是索引，为什么需要索引？](database/mysql/suo-yin-xiang-guan/shen-me-shi-suo-yin-wei-shen-me-xu-yao-suo-yin.md)
     * [MySQL 支持哪些索引类型？](database/mysql/suo-yin-xiang-guan/mysql-zhi-chi-na-xie-suo-yin-lei-xing.md)
@@ -68,6 +65,11 @@
     * [MySQL 事务的持久性 (Durability) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-chi-jiu-xing-durability-shi-xian-yuan-li.md)
     * [MySQL MVCC](database/mysql/shi-wu/mysql-mvcc.md)
     * [Page 1](database/mysql/shi-wu/page-1.md)
+  * [锁机制](database/mysql/suo-ji-zhi.md)
+  * [存储引擎](database/mysql/cun-chu-yin-qing/README.md)
+    * [页分裂与页合并](database/mysql/cun-chu-yin-qing/ye-fen-lie-yu-ye-he-bing.md)
+    * [InnoDB vs. MyISAM](database/mysql/cun-chu-yin-qing/innodb-vs.-myisam.md)
+    * [如何避免 InnoDB 页分裂？](database/mysql/cun-chu-yin-qing/ru-he-bi-mian-innodb-ye-fen-lie.md)
 
 ## MQ
 
