@@ -16,7 +16,7 @@ SELECT * FROM users WHERE id = 1;
 
 MySQL 执行这条 SQL 的过程如下：
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 1.客户端连接
 
