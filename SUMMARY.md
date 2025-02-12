@@ -69,6 +69,7 @@
     * [乐观锁 vs悲观锁](database/mysql/suo-ji-zhi/le-guan-suo-vs-bei-guan-suo.md)
     * [锁的粒度分类（全局锁、表级锁、行级锁）](database/mysql/suo-ji-zhi/suo-de-li-du-fen-lei-quan-ju-suo-biao-ji-suo-xing-ji-suo.md)
     * [共享锁(S 锁)vs排他锁(X 锁)](database/mysql/suo-ji-zhi/gong-xiang-suos-suo-vs-pai-ta-suox-suo.md)
+    * [意向共享锁（IS）与意向排他锁（IX）](database/mysql/suo-ji-zhi/yi-xiang-gong-xiang-suo-is-yu-yi-xiang-pai-ta-suo-ix.md)
   * [存储引擎](database/mysql/cun-chu-yin-qing/README.md)
     * [页分裂与页合并](database/mysql/cun-chu-yin-qing/ye-fen-lie-yu-ye-he-bing.md)
     * [InnoDB vs. MyISAM](database/mysql/cun-chu-yin-qing/innodb-vs.-myisam.md)
