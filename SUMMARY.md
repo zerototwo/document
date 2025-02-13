@@ -89,3 +89,8 @@
 ## NOSQL
 
 * [Redis](nosql/redis.md)
+
+## Distributed transaction
+
+* [Distributed transaction](distributed-transaction/distributed-transaction/README.md)
+  * [2PC](distributed-transaction/distributed-transaction/2pc.md)
