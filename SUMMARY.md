@@ -79,6 +79,7 @@
     * [索引优化](database/mysql/sql-you-hua/suo-yin-you-hua.md)
     * [查询优化（SQL Query Optimization）](database/mysql/sql-you-hua/cha-xun-you-hua-sql-query-optimization.md)
     * [事务与锁优化（Transaction & Lock Optimization）](database/mysql/sql-you-hua/shi-wu-yu-suo-you-hua-transaction-lock-optimization.md)
+    * [数据库设计优化](database/mysql/sql-you-hua/shu-ju-ku-she-ji-you-hua.md)
 
 ## MQ
 
