@@ -75,6 +75,7 @@
     * [页分裂与页合并](database/mysql/cun-chu-yin-qing/ye-fen-lie-yu-ye-he-bing.md)
     * [InnoDB vs. MyISAM](database/mysql/cun-chu-yin-qing/innodb-vs.-myisam.md)
     * [如何避免 InnoDB 页分裂？](database/mysql/cun-chu-yin-qing/ru-he-bi-mian-innodb-ye-fen-lie.md)
+  * [SQL 优化](database/mysql/sql-you-hua.md)
 
 ## MQ
 
