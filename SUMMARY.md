@@ -100,5 +100,6 @@
   * [3PC](distributed/distributed-transaction/3pc.md)
   * [TCC (Try-Confirm-Cancel)](distributed/distributed-transaction/tcc-try-confirm-cancel.md)
   * [可靠消息最终一致性解决方案](distributed/distributed-transaction/ke-kao-xiao-xi-zui-zhong-yi-zhi-xing-jie-jue-fang-an.md)
+  * [最大努力通知（Best Effort Notification）分布式解决方案](distributed/distributed-transaction/zui-da-nu-li-tong-zhi-best-effort-notification-fen-bu-shi-jie-jue-fang-an.md)
 * [CAP 理论与 BASE 模型？](distributed/cap-li-lun-yu-base-mo-xing.md)
 * [如何设计高可用的分布式锁？](distributed/ru-he-she-ji-gao-ke-yong-de-fen-bu-shi-suo.md)
