@@ -84,7 +84,10 @@
 
 ## MQ
 
-* [Kafka](mq/kafka.md)
+* [Kafka](mq/kafka/README.md)
+  * [如何用 Kafka 设计分布式事务？](mq/kafka/ru-he-yong-kafka-she-ji-fen-bu-shi-shi-wu.md)
+* [如何保证 MQ 的幂等性？](mq/ru-he-bao-zheng-mq-de-mi-deng-xing.md)
+* [RocketMQ 事务消息 vs Kafka 事务消息？](mq/rocketmq-shi-wu-xiao-xi-vs-kafka-shi-wu-xiao-xi.md)
 
 ## NOSQL
 
@@ -96,3 +99,6 @@
   * [2PC](distributed/distributed-transaction/2pc.md)
   * [3PC](distributed/distributed-transaction/3pc.md)
   * [TCC (Try-Confirm-Cancel)](distributed/distributed-transaction/tcc-try-confirm-cancel.md)
+  * [可靠消息最终一致性解决方案](distributed/distributed-transaction/ke-kao-xiao-xi-zui-zhong-yi-zhi-xing-jie-jue-fang-an.md)
+* [CAP 理论与 BASE 模型？](distributed/cap-li-lun-yu-base-mo-xing.md)
+* [如何设计高可用的分布式锁？](distributed/ru-he-she-ji-gao-ke-yong-de-fen-bu-shi-suo.md)
