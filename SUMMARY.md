@@ -90,7 +90,8 @@
 
 * [Redis](nosql/redis.md)
 
-## Distributed transaction
+## Distributed
 
-* [Distributed transaction](distributed-transaction/distributed-transaction/README.md)
-  * [2PC](distributed-transaction/distributed-transaction/2pc.md)
+* [Distributed transaction](distributed/distributed-transaction/README.md)
+  * [2PC](distributed/distributed-transaction/2pc.md)
+  * [3PC](distributed/distributed-transaction/3pc.md)
