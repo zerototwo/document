@@ -98,6 +98,7 @@
   * [Redis 底层数据结构详解](nosql/redis/redis-di-ceng-shu-ju-jie-gou-xiang-jie.md)
   * [Redis 优化建议](nosql/redis/redis-you-hua-jian-yi.md)
   * [Redis 持久化操作：RDB vs AOF](nosql/redis/redis-chi-jiu-hua-cao-zuo-rdb-vs-aof.md)
+  * [Redis 为什么那么快？](nosql/redis/redis-wei-shen-me-na-me-kuai.md)
 
 ## Distributed
 
