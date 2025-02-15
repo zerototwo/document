@@ -94,6 +94,7 @@
 * [Redis](nosql/redis/README.md)
   * [缓存击穿、缓存穿透、缓存雪崩](nosql/redis/huan-cun-ji-chuan-huan-cun-chuan-tou-huan-cun-xue-beng.md)
   * [Redis 删除策略](nosql/redis/redis-shan-chu-ce-le.md)
+  * [IO 多路复用：Select、Poll、Epoll 区别](nosql/redis/io-duo-lu-fu-yong-selectpollepoll-qu-bie.md)
 
 ## Distributed
 
