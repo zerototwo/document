@@ -91,7 +91,8 @@
 
 ## NOSQL
 
-* [Redis](nosql/redis.md)
+* [Redis](nosql/redis/README.md)
+  * [缓存击穿、缓存穿透、缓存雪崩](nosql/redis/huan-cun-ji-chuan-huan-cun-chuan-tou-huan-cun-xue-beng.md)
 
 ## Distributed
 
