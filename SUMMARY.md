@@ -97,6 +97,7 @@
   * [IO 多路复用：Select、Poll、Epoll 区别](nosql/redis/io-duo-lu-fu-yong-selectpollepoll-qu-bie.md)
   * [Redis 底层数据结构详解](nosql/redis/redis-di-ceng-shu-ju-jie-gou-xiang-jie.md)
   * [Redis 优化建议](nosql/redis/redis-you-hua-jian-yi.md)
+  * [Redis 持久化操作：RDB vs AOF](nosql/redis/redis-chi-jiu-hua-cao-zuo-rdb-vs-aof.md)
 
 ## Distributed
 
