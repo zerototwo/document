@@ -86,6 +86,8 @@
 
 * [Kafka](mq/kafka/README.md)
   * [如何用 Kafka 设计分布式事务？](mq/kafka/ru-he-yong-kafka-she-ji-fen-bu-shi-shi-wu.md)
+  * [Kafka 架构](mq/kafka/kafka-jia-gou.md)
+  * [Kafka 消息的发送过程](mq/kafka/kafka-xiao-xi-de-fa-song-guo-cheng.md)
 * [如何保证 MQ 的幂等性？](mq/ru-he-bao-zheng-mq-de-mi-deng-xing.md)
 * [RocketMQ 事务消息 vs Kafka 事务消息？](mq/rocketmq-shi-wu-xiao-xi-vs-kafka-shi-wu-xiao-xi.md)
 * [为什么要使用消息队列？](mq/wei-shen-me-yao-shi-yong-xiao-xi-dui-lie.md)
