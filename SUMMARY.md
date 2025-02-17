@@ -24,6 +24,7 @@
   * [如何让Java的线程池顺序执行任务](java/java-concurrence/ru-he-rang-java-de-xian-cheng-chi-shun-xu-zhi-xing-ren-wu.md)
   * [创建线程有几种方式？](java/java-concurrence/chuang-jian-xian-cheng-you-ji-zhong-fang-shi.md)
   * [synchronized](java/java-concurrence/synchronized.md)
+  * [synchronized 如何保证原子性、可见性、有序性？](java/java-concurrence/synchronized-ru-he-bao-zheng-yuan-zi-xing-ke-jian-xing-you-xu-xing.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
 * [Java-new-features](java/java-new-features/README.md)
