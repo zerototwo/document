@@ -23,6 +23,7 @@
 * [Java-Concurrence](java/java-concurrence.md)
   * [如何让Java的线程池顺序执行任务](java/java-concurrence/ru-he-rang-java-de-xian-cheng-chi-shun-xu-zhi-xing-ren-wu.md)
   * [创建线程有几种方式？](java/java-concurrence/chuang-jian-xian-cheng-you-ji-zhong-fang-shi.md)
+  * [synchronized](java/java-concurrence/synchronized.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
 * [Java-new-features](java/java-new-features/README.md)
