@@ -26,6 +26,7 @@
   * [synchronized](java/java-concurrence/synchronized.md)
   * [synchronized 如何保证原子性、可见性、有序性？](java/java-concurrence/synchronized-ru-he-bao-zheng-yuan-zi-xing-ke-jian-xing-you-xu-xing.md)
   * [synchronized 锁升级机制详解](java/java-concurrence/synchronized-suo-sheng-ji-ji-zhi-xiang-jie.md)
+  * [volatile 关键字详解](java/java-concurrence/volatile-guan-jian-zi-xiang-jie.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm.md)
 * [Java-new-features](java/java-new-features/README.md)
