@@ -7,3 +7,4 @@ coverY: 0
 
 # Java-Concurrence
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
