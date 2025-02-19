@@ -29,6 +29,7 @@
   * [synchronized 锁升级机制详解](java/java-concurrence/synchronized-suo-sheng-ji-ji-zhi-xiang-jie.md)
   * [volatile 关键字详解](java/java-concurrence/volatile-guan-jian-zi-xiang-jie.md)
   * [JUC 锁：LockSupport 详解](java/java-concurrence/juc-suo-locksupport-xiang-jie.md)
+  * [JUC锁: 锁核心类AQS详解](java/java-concurrence/juc-suo-suo-he-xin-lei-aqs-xiang-jie.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm/README.md)
   * [类字节码](java/jvm/lei-zi-jie-ma.md)
