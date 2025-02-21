@@ -73,6 +73,7 @@
   * [Spring IOC](spring-framework/spring/spring-ioc.md)
   * [Spring AOP](spring-framework/spring/spring-aop.md)
   * [Spring Design mode](spring-framework/spring/spring-design-mode.md)
+  * [Spring Bean 的生命周期详细讲解](spring-framework/spring/spring-bean-de-sheng-ming-zhou-qi-xiang-xi-jiang-jie.md)
 * [Springboot](spring-framework/springboot.md)
 
 ## database
