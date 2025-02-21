@@ -39,6 +39,7 @@
   * [JUC线程池: FutureTask详解](java/java-concurrence/juc-xian-cheng-chi-futuretask-xiang-jie.md)
   * [JUC线程池: ThreadPoolExecutor](java/java-concurrence/juc-xian-cheng-chi-threadpoolexecutor.md)
   * [JUC工具类: CountDownLatch详解](java/java-concurrence/juc-gong-ju-lei-countdownlatch-xiang-jie.md)
+  * [JUC工具类: CyclicBarrier详解](java/java-concurrence/juc-gong-ju-lei-cyclicbarrier-xiang-jie.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm/README.md)
   * [类字节码](java/jvm/lei-zi-jie-ma.md)
