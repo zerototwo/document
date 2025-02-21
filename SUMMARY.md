@@ -42,6 +42,7 @@
   * [JUC工具类: CyclicBarrier详解](java/java-concurrence/juc-gong-ju-lei-cyclicbarrier-xiang-jie.md)
   * [JUC 工具类: Semaphore 详解](java/java-concurrence/juc-gong-ju-lei-semaphore-xiang-jie.md)
   * [Java 并发 - ThreadLocal 详解](java/java-concurrence/java-bing-fa-threadlocal-xiang-jie.md)
+  * [Java 并发 - ThreadLocal 父子线程共享问题](java/java-concurrence/java-bing-fa-threadlocal-fu-zi-xian-cheng-gong-xiang-wen-ti.md)
 * [Java IO/NIO](java/java-io-nio.md)
 * [Jvm](java/jvm/README.md)
   * [类字节码](java/jvm/lei-zi-jie-ma.md)
