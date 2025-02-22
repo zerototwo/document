@@ -73,7 +73,8 @@
   * [Spring IOC](spring-framework/spring/spring-ioc.md)
   * [Spring AOP](spring-framework/spring/spring-aop.md)
   * [Spring Design mode](spring-framework/spring/spring-design-mode.md)
-  * [Spring Bean 的生命周期详细讲解](spring-framework/spring/spring-bean-de-sheng-ming-zhou-qi-xiang-xi-jiang-jie.md)
+  * [Spring Bean 的生命周期](spring-framework/spring/spring-bean-de-sheng-ming-zhou-qi.md)
+  * [Spring 如何解决循环依赖（Circular Dependency）](spring-framework/spring/spring-ru-he-jie-jue-xun-huan-yi-lai-circular-dependency.md)
 * [Springboot](spring-framework/springboot.md)
 
 ## database
