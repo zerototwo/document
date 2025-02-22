@@ -56,6 +56,7 @@
   * [垃圾回收器之CMS](java/jvm/la-ji-hui-shou-qi-zhi-cms.md)
   * [GC（垃圾回收）检测垃圾的方法](java/jvm/gc-la-ji-hui-shou-jian-ce-la-ji-de-fang-fa.md)
   * [Java GC（垃圾回收）算法详解](java/jvm/java-gc-la-ji-hui-shou-suan-fa-xiang-jie.md)
+  * [Young GC（Minor GC）和 Full GC 触发条件详解](java/jvm/young-gcminor-gc-he-full-gc-chu-fa-tiao-jian-xiang-jie.md)
 * [Java-new-features](java/java-new-features/README.md)
   * [Java9](java/java-new-features/java9.md)
   * [Java10](java/java-new-features/java10.md)
