@@ -54,6 +54,7 @@
   * [垃圾回收器之G1](java/jvm/la-ji-hui-shou-qi-zhi-g1.md)
   * [垃圾回收器之ZGC](java/jvm/la-ji-hui-shou-qi-zhi-zgc.md)
   * [垃圾回收器之CMS](java/jvm/la-ji-hui-shou-qi-zhi-cms.md)
+  * [GC（垃圾回收）检测垃圾的方法](java/jvm/gc-la-ji-hui-shou-jian-ce-la-ji-de-fang-fa.md)
 * [Java-new-features](java/java-new-features/README.md)
   * [Java9](java/java-new-features/java9.md)
   * [Java10](java/java-new-features/java10.md)
