@@ -126,9 +126,9 @@
 ## MQ
 
 * [Kafka](mq/kafka/README.md)
+  * [Kafka 架构](mq/kafka/kafka-jia-gou.md)
   * [如何用 Kafka 设计分布式事务？](mq/kafka/ru-he-yong-kafka-she-ji-fen-bu-shi-shi-wu.md)
   * [Kafka 事务消息原理](mq/kafka/kafka-shi-wu-xiao-xi-yuan-li.md)
-  * [Kafka 架构](mq/kafka/kafka-jia-gou.md)
   * [Kafka 消息的发送过程](mq/kafka/kafka-xiao-xi-de-fa-song-guo-cheng.md)
   * [Kafka 为什么这么快？—— 从消息发送端、存储端、消费者端分析](mq/kafka/kafka-wei-shen-me-zhe-me-kuai-cong-xiao-xi-fa-song-duan-cun-chu-duan-xiao-fei-zhe-duan-fen-xi.md)
   * [Kafka 如何保证消息不丢失](mq/kafka/kafka-ru-he-bao-zheng-xiao-xi-bu-diu-shi.md)
