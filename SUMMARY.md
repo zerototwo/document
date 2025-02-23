@@ -176,3 +176,5 @@
   * [撮合系统数据存储方案 (Hazelcast + Redis)](project/push/cuo-he-xi-tong-shu-ju-cun-chu-fang-an-hazelcast-+-redis.md)
   * [为什么撮合系统不直接用 Kafka 推送，而是结合 Redis？](project/push/wei-shen-me-cuo-he-xi-tong-bu-zhi-jie-yong-kafka-tui-song-er-shi-jie-he-redis.md)
   * [Redis 数据存储方案](project/push/redis-shu-ju-cun-chu-fang-an.md)
+  * [Hazelcast 数据存储方案](project/push/hazelcast-shu-ju-cun-chu-fang-an.md)
+* [Hazelcast架构](project/hazelcast-jia-gou.md)
