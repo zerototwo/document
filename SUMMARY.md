@@ -127,6 +127,7 @@
 
 * [Kafka](mq/kafka/README.md)
   * [如何用 Kafka 设计分布式事务？](mq/kafka/ru-he-yong-kafka-she-ji-fen-bu-shi-shi-wu.md)
+  * [Kafka 事务消息原理](mq/kafka/kafka-shi-wu-xiao-xi-yuan-li.md)
   * [Kafka 架构](mq/kafka/kafka-jia-gou.md)
   * [Kafka 消息的发送过程](mq/kafka/kafka-xiao-xi-de-fa-song-guo-cheng.md)
   * [Kafka 为什么这么快？—— 从消息发送端、存储端、消费者端分析](mq/kafka/kafka-wei-shen-me-zhe-me-kuai-cong-xiao-xi-fa-song-duan-cun-chu-duan-xiao-fei-zhe-duan-fen-xi.md)
@@ -137,7 +138,6 @@
   * [PageCache 详解（Kafka & 操作系统）](mq/kafka/pagecache-xiang-jie-kafka-cao-zuo-xi-tong.md)
   * [Kafka 零拷贝（Zero Copy）](mq/kafka/kafka-ling-kao-bei-zero-copy.md)
   * [Kafka 存储机制](mq/kafka/kafka-cun-chu-ji-zhi.md)
-  * [Kafka 事务消息原理](mq/kafka/kafka-shi-wu-xiao-xi-yuan-li.md)
 * [如何保证 MQ 的幂等性？](mq/ru-he-bao-zheng-mq-de-mi-deng-xing.md)
 * [RocketMQ 事务消息 vs Kafka 事务消息？](mq/rocketmq-shi-wu-xiao-xi-vs-kafka-shi-wu-xiao-xi.md)
 * [为什么要使用消息队列？](mq/wei-shen-me-yao-shi-yong-xiao-xi-dui-lie.md)

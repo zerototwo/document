@@ -27,7 +27,7 @@ Kafka 自身支持事务，确保生产者批量消息要么全部提交，要�
 
 ### 示例
 
-```
+```java
 KafkaProducer<String, String> producer = new KafkaProducer<>(props);
 
 // 开启事务
@@ -75,14 +75,14 @@ Kafka 常用于异步解耦，配合事务表或幂等处理，实现 最终一�
 
 #### 事务日志表
 
-```
+```sql
 INSERT INTO order (order_id, user_id, amount, status) VALUES (1, 1001, 99.99, 'INIT');
 INSERT INTO transaction_log (log_id, order_id, status) VALUES (101, 1, 'PENDING');
 ```
 
 ✅ 确保数据库操作 & Kafka 发送在一个事务内
 
-```
+```java
 @Transactional
 public void createOrder(Order order) {
     orderRepository.save(order); // 订单入库
@@ -92,7 +92,7 @@ public void createOrder(Order order) {
 
 📌 消费者端
 
-```
+```java
 @KafkaListener(topics = "order-topic")
 public void handleOrder(String orderId) {
     try {
@@ -136,7 +136,7 @@ TCC（Try-Confirm-Cancel）是一种柔性事务，结合 Kafka 确保最终一�
 
 ### 示例
 
-```
+```java
 @Transactional
 public void tryReserveStock(String orderId) {
     stockRepository.reserveStock(orderId); // 预扣库存
@@ -165,7 +165,7 @@ Kafka 可以结合 Outbox + CDC（Change Data Capture） 确保 事务操作 & �
 
 ### 示例
 
-```
+```sql
 BEGIN;
 INSERT INTO order (order_id, user_id, amount) VALUES (1, 1001, 99.99);
 INSERT INTO outbox (event_id, event_type, payload) VALUES (101, 'ORDER_CREATED', '{order_id:1}');
@@ -198,7 +198,7 @@ debezium:
 
 ### 示例
 
-```
+```sql
 BEGIN;
 INSERT INTO order (order_id, user_id, amount) VALUES (1, 1001, 99.99);
 INSERT INTO transaction_log (tx_id, status) VALUES (101, 'PENDING');
