@@ -142,6 +142,7 @@
 * [为什么要使用消息队列？](mq/wei-shen-me-yao-shi-yong-xiao-xi-dui-lie.md)
 * [RocketMq](mq/rocketmq/README.md)
   * [初识RocketMQ](mq/rocketmq/chu-shi-rocketmq.md)
+  * [RocketMQ 事务消息原理](mq/rocketmq/rocketmq-shi-wu-xiao-xi-yuan-li.md)
 * [RocketMQ vs Kafka vs RabbitMQ 对比](mq/rocketmq-vs-kafka-vs-rabbitmq-dui-bi.md)
 * [RabbitMQ](mq/rabbitmq.md)
 
