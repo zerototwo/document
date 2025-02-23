@@ -137,6 +137,7 @@
   * [PageCache 详解（Kafka & 操作系统）](mq/kafka/pagecache-xiang-jie-kafka-cao-zuo-xi-tong.md)
   * [Kafka 零拷贝（Zero Copy）](mq/kafka/kafka-ling-kao-bei-zero-copy.md)
   * [Kafka 存储机制](mq/kafka/kafka-cun-chu-ji-zhi.md)
+  * [Kafka 事务消息原理](mq/kafka/kafka-shi-wu-xiao-xi-yuan-li.md)
 * [如何保证 MQ 的幂等性？](mq/ru-he-bao-zheng-mq-de-mi-deng-xing.md)
 * [RocketMQ 事务消息 vs Kafka 事务消息？](mq/rocketmq-shi-wu-xiao-xi-vs-kafka-shi-wu-xiao-xi.md)
 * [为什么要使用消息队列？](mq/wei-shen-me-yao-shi-yong-xiao-xi-dui-lie.md)
