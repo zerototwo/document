@@ -138,7 +138,7 @@ flag = true;          //语句2
 
 从 java 源代码到最终实际执行的指令序列，会分别经历下面三种重排序：
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 上述的 1 属于编译器重排序，2 和 3 属于处理器重排序。这些重排序都可能会导致多线程程序出现内存可见性问题。对于编译器，JMM 的编译器重排序规则会禁止特定类型的编译器重排序（不是所有的编译器重排序都要禁止）。对于处理器重排序，JMM 的处理器重排序规则会要求 java 编译器在生成指令序列时，插入特定类型的内存屏障（memory barriers，intel 称之为 memory fence）指令，通过内存屏障指令来禁止特定类型的处理器重排序（不是所有的处理器重排序都要禁止）。
 
@@ -199,7 +199,7 @@ Java提供了volatile关键字来保证可见性。
 #### 5.1.1**单一线程原则**
 
 在一个线程内，在程序前面的操作先行发生于后面的操作。\
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 \
 
@@ -208,7 +208,7 @@ Java提供了volatile关键字来保证可见性。
 
 #### 一个 unlock 操作先行发生于后面对同一个锁的 lock 操作。
 
-#### <img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"> 
+#### <img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"> 
 
 #### 5.1.3**volatile 变量规则**
 

@@ -140,7 +140,8 @@
 * [如何保证 MQ 的幂等性？](mq/ru-he-bao-zheng-mq-de-mi-deng-xing.md)
 * [RocketMQ 事务消息 vs Kafka 事务消息？](mq/rocketmq-shi-wu-xiao-xi-vs-kafka-shi-wu-xiao-xi.md)
 * [为什么要使用消息队列？](mq/wei-shen-me-yao-shi-yong-xiao-xi-dui-lie.md)
-* [RocketMq](mq/rocketmq.md)
+* [RocketMq](mq/rocketmq/README.md)
+  * [初识RocketMQ](mq/rocketmq/chu-shi-rocketmq.md)
 * [RocketMQ vs Kafka vs RabbitMQ 对比](mq/rocketmq-vs-kafka-vs-rabbitmq-dui-bi.md)
 * [RabbitMQ](mq/rabbitmq.md)
 
