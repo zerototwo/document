@@ -40,12 +40,12 @@ Kafka 事务机制的核心组件：
 
 ```mermaid
 graph TD;
-    A[Producer] -->|Begin Transaction| B[Transaction Coordinator]
-    A -->|Send Message| C[Broker - Topic Partition]
-    B -->|Write Transaction Log| D[Transaction Log]
-    A -->|Commit / Abort| B
-    B -->|Apply Changes| C
-    C -->|Consumer Read Committed Data| E[Consumer]
+    A[Producer] -->|1️⃣ Begin Transaction| B[Transaction Coordinator]
+    A -->|2️⃣ Send Message| C[Broker - Topic Partition]
+    B -->|3️⃣ Write Transaction Log| D[Transaction Log]
+    A -->|4️⃣ Commit / Abort| B
+    B -->|5️⃣ Apply Changes| C
+    C -->|6️⃣ Consumer Read Committed Data| E[Consumer]
 ```
 
 ## 2. Kafka 事务的实现机制
