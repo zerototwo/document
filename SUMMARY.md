@@ -159,6 +159,7 @@
   * [Redis 持久化操作：RDB vs AOF](nosql/redis/redis-chi-jiu-hua-cao-zuo-rdb-vs-aof.md)
   * [Redis 为什么那么快？](nosql/redis/redis-wei-shen-me-na-me-kuai.md)
   * [Redis Pub/Sub vs. Redis Stream 对比](nosql/redis/redis-pubsub-vs.-redis-stream-dui-bi.md)
+  * [Redis 集群模式详解](nosql/redis/redis-ji-qun-mo-shi-xiang-jie.md)
 
 ## Distributed
 
