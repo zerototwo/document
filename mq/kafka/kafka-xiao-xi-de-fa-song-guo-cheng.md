@@ -4,30 +4,24 @@
 
 生产者负责 构造消息 并决定发送到哪个分区（Partition）。
 
-• Producer（生产者）：调用 sendProducerRecord() 方法，创建 Kafka 消息。
+* Producer（生产者）：调用 sendProducerRecord() 方法，创建 Kafka 消息。
+* Interceptor（拦截器）：可以在消息发送前修改消息（如打日志、流量控制等）。
+* Serializer（序列化器）：将消息 Key/Value 转换成二进制格式，以便 Kafka 传输和存储。
+* **Partitioner（分区器）：决定消息应该 存储在哪个分区，分区策略包括：**
 
-• Interceptor（拦截器）：可以在消息发送前修改消息（如打日志、流量控制等）。
+&#x20;          • 指定分区
 
-• Serializer（序列化器）：将消息 Key/Value 转换成二进制格式，以便 Kafka 传输和存储。
+&#x20;          • Key 哈希取模
 
-• **Partitioner（分区器）：决定消息应该 存储在哪个分区，分区策略包括：**
-
-
-
-• 指定分区
-
-• Key 哈希取模
-
-• 轮询（RoundRobin）
+&#x20;          • 轮询（RoundRobin）
 
 \
 完成这部分后，Kafka 生产者会将消息封装为 ProducerRecord，准备发送。
 
 ## 2.生产者累积消息（RecordAccumulator）
 
-• RecordAccumulator 是一个缓冲区，用于批量发送消息，提高吞吐量。
-
-• 生产者会 暂存消息 在 多个 Queue（队列） 中，并等待批量发送。
+* RecordAccumulator 是一个缓冲区，用于批量发送消息，提高吞吐量。
+* 生产者会 暂存消息 在 多个 Queue（队列） 中，并等待批量发送。&#x20;
 
 📌 Kafka 采用”批量提交 + 异步 IO” 机制，提升吞吐量。
 
@@ -49,11 +43,9 @@
 
 ## 4.Kafka Broker 处理消息
 
-• Kafka Broker 接收 Producer 发送的消息，并存储到对应 分区（Partition）。
-
-• 分区的 Leader 负责写入数据，Follower 负责 复制数据（Replication），保证数据可靠性。
-
-• 数据存储 采用 PageCache + Zero-Copy 零拷贝，提升吞吐量。
+* Kafka Broker 接收 Producer 发送的消息，并存储到对应 分区（Partition）。
+* 分区的 Leader 负责写入数据，Follower 负责 复制数据（Replication），保证数据可靠性。
+* 数据存储 采用 PageCache + Zero-Copy 零拷贝，提升吞吐量。
 
 📌 Kafka 采用顺序写 + PageCache + 零拷贝 提高吞吐量。
 
@@ -61,11 +53,9 @@
 
 Kafka Broker 写入数据后，会根据 acks 机制返回确认：
 
-• acks=0：不等待确认（高吞吐，可能丢数据）
-
-• acks=1：Leader 存储成功即返回（可能丢数据）
-
-• acks=all：所有副本存储成功才返回（最高可靠性）
+* acks=0：不等待确认（高吞吐，可能丢数据）
+* acks=1：Leader 存储成功即返回（可能丢数据）
+* acks=all：所有副本存储成功才返回（最高可靠性）
 
 📌 Kafka 生产者可以设置 acks=all 确保数据不丢失。
 
