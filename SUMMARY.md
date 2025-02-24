@@ -171,6 +171,7 @@
 * [CAP 理论与 BASE 模型](distributed/cap-li-lun-yu-base-mo-xing.md)
 * [如何设计高可用的分布式锁？](distributed/ru-he-she-ji-gao-ke-yong-de-fen-bu-shi-suo.md)
 * [Raft 算法详解](distributed/raft-suan-fa-xiang-jie.md)
+* [脑裂（Split-Brain）问题及解决方案](distributed/nao-lie-splitbrain-wen-ti-ji-jie-jue-fang-an.md)
 
 ## project
 
