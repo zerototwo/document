@@ -160,6 +160,7 @@
   * [Redis 为什么那么快？](nosql/redis/redis-wei-shen-me-na-me-kuai.md)
   * [Redis Pub/Sub vs. Redis Stream 对比](nosql/redis/redis-pubsub-vs.-redis-stream-dui-bi.md)
   * [Redis 集群模式详解](nosql/redis/redis-ji-qun-mo-shi-xiang-jie.md)
+  * [Redis 哨兵（Sentinel）选举机制详解](nosql/redis/redis-shao-bing-sentinel-xuan-ju-ji-zhi-xiang-jie.md)
 
 ## Distributed
 
