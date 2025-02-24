@@ -12,11 +12,9 @@ Kafka 重平衡（Rebalance） 是指 消费者组（Consumer Group）中的消�
 
 ### 作用：
 
-• 维持 Consumer Group 内的 负载均衡。
-
-• 确保 每个分区（Partition）都被某个消费者（Consumer）消费。
-
-• 处理消费者新增 / 退出 / 崩溃 等情况。
+* 维持 Consumer Group 内的 负载均衡。
+* 确保 每个分区（Partition）都被某个消费者（Consumer）消费。
+* 处理消费者新增 / 退出 / 崩溃 等情况。
 
 ## 2.为什么需要重平衡
 
@@ -34,25 +32,22 @@ Kafka 每个 Partition 只能被同一个 Consumer 组中的一个消费者消�
 
 ### 1. 协调者（Coordinator）发现变更
 
-• Kafka 的 Group Coordinator（协调者）监控 Consumer 组的成员变更。
-
-• 发现 新增 / 退出 / 崩溃 事件后，触发 重平衡。
+* Kafka 的 Group Coordinator（协调者）监控 Consumer 组的成员变更。
+* 发现 新增 / 退出 / 崩溃 事件后，触发 重平衡。
 
 ### 2. 停止消费（暂停阶段）
 
-• 所有 Consumer 暂停消费，等待新的 Partition 分配。
+* 所有 Consumer 暂停消费，等待新的 Partition 分配。&#x20;
 
 ### 3. Leader Consumer 选择新的分配方案
 
-• Kafka 选出一个 Consumer Leader（消费者组的 Leader）。
-
-• Leader 通过 分区分配策略（Partition Assignment Strategy） 重新分配 Partition。
+* Kafka 选出一个 Consumer Leader（消费者组的 Leader）。
+* Leader 通过 分区分配策略（Partition Assignment Strategy） 重新分配 Partition。
 
 ### 4. 所有 Consumer 接受新的分配
 
-• Consumer 组成员接受新分配的分区。
-
-• 恢复消费，继续处理 Kafka 消息。
+* Consumer 组成员接受新分配的分区。
+* 恢复消费，继续处理 Kafka 消息。
 
 ## 4.Kafka 重平衡的分区分配策略
 
@@ -75,44 +70,42 @@ partition.assignment.strategy=org.apache.kafka.clients.consumer.CooperativeStick
 
 重平衡会导致：
 
-1\. 消费短暂中断（Consumer 组内所有 Consumer 停止工作）。
-
-2\. 数据重复消费（Consumer 可能会重新读取数据）。
-
-3\. 性能损耗（频繁重平衡会影响 Kafka 整体吞吐量）。
+1. 消费短暂中断（Consumer 组内所有 Consumer 停止工作）。
+2. 数据重复消费（Consumer 可能会重新读取数据）。
+3. 性能损耗（频繁重平衡会影响 Kafka 整体吞吐量）。
 
 ## 6.如何优化 Kafka 重平衡？
 
 ### 1. 使用 CooperativeStickyAssignor
 
-• 减少不必要的 Partition 变更，降低重平衡对 Consumer 组的影响。
+* 减少不必要的 Partition 变更，降低重平衡对 Consumer 组的影响。
 
-```
+```sh
 partition.assignment.strategy=org.apache.kafka.clients.consumer.CooperativeStickyAssignor
 ```
 
 ### 2. 设置 session.timeout.ms & heartbeat.interval.ms
 
-• 避免误触发 Rebalance
+* 避免误触发 Rebalance
 
-```
+```sh
 session.timeout.ms=45000   # Consumer 失联 45s 才认为超时
 heartbeat.interval.ms=15000 # Consumer 每 15s 发送心跳
 ```
 
 ### 3. 增加 max.poll.interval.ms
 
-• 防止 Consumer 处理慢导致退出
+* 防止 Consumer 处理慢导致退出
 
-```
+```sh
 max.poll.interval.ms=300000   # Consumer 最长 5 分钟不拉取消息不会被踢出
 ```
 
 ### 4. 使用 Static Membership（静态成员分配）
 
-• 避免 Consumer 退出后重新加入导致 Rebalance
+* 避免 Consumer 退出后重新加入导致 Rebalance
 
-```
+```sh
 group.instance.id=consumer-1
 ```
 
