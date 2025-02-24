@@ -81,7 +81,7 @@ Partition 2 → Consumer 3
 
 ### 示例
 
-```
+```java
 ProducerRecord<String, String> record = new ProducerRecord<>("order_topic", "user123", "order_created");
 producer.send(record);
 ```
@@ -117,7 +117,7 @@ Kafka 采用日志存储消息，支持顺序写 & 零拷贝。
 
 ### 存储结构
 
-```
+```java
 /var/kafka-logs/
  ├── order_topic-0/
  │   ├── 00000000000000000000.log  # 消息日志
@@ -149,7 +149,7 @@ Kafka 消费模式 = 订阅 + 拉取（Pull），支持多消费者并发。
 
 ### 手动提交 Offset
 
-```
+```java
 consumer.commitSync();  // 同步提交
 consumer.commitAsync();  // 异步提交（提高吞吐）
 ```
@@ -162,7 +162,7 @@ Kafka 支持事务，保证多个 Topic 消息要么全部提交，要么全部�
 
 ### 事务示例
 
-```
+```java
 producer.initTransactions();
 producer.beginTransaction();
 producer.send(new ProducerRecord<>("topic1", "key", "value"));
