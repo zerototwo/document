@@ -1,5 +1,9 @@
 # Kafka 消息的发送过程
 
+
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
 ## 1. 生产者（Producer）处理消息
 
 生产者负责 构造消息 并决定发送到哪个分区（Partition）。
