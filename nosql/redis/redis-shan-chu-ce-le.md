@@ -6,7 +6,7 @@ description: >-
 
 # Redis 删除策略
 
-## &#x20;1. Redis 过期键删除策略
+## 1. Redis 过期键删除策略
 
 Redis 允许为 Key 设置过期时间（TTL），到期后该 Key 需要被删除。删除方式有以下三种：
 
@@ -55,16 +55,9 @@ CONFIG SET active-expire-keys 100
 
 当 Redis 内存达到 maxmemory 限制，且无法回收过期 Key 时，会根据淘汰策略清理数据，保证 Redis 可用。
 
-| **策略**          | **描述** | **作用范围** | **特点** |
-|------------------|---------|------------|---------|
-| **volatile-lru**  | 移除最近最少使用（LRU）的 key | **仅限** 设有过期时间的 key | 只会淘汰 **有 TTL 的 key**，不会动持久 key |
-| **allkeys-lru**   | 移除最近最少使用（LRU）的 key | **整个键空间** | **最常用**，适用于 **全局淘汰** |
-| **volatile-lfu**  | 移除最不经常使用（LFU）的 key | **仅限** 设有过期时间的 key | 适用于访问模式有热点的情况 |
-| **allkeys-lfu**   | 移除最不经常使用（LFU）的 key | **整个键空间** | 可用于数据访问模式明显的场景 |
-| **volatile-random** | 随机移除某个 key | **仅限** 设有过期时间的 key | 适用于无规律访问的数据 |
-| **allkeys-random** | 随机移除某个 key | **整个键空间** | 适用于 **所有 key**，不区分 TTL |
-| **volatile-ttl** | 移除**过期时间最早**的 key | **仅限** 设有过期时间的 key | 优先删除 **快要过期的 key**，适用于短周期缓存 |
-| **noeviction** | 不删除任何 key，内存不足时返回错误 | 不移除任何 key | **默认选项**，如果内存满了则写入失败 |
+<table data-header-hidden><thead><tr><th width="187"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>策略</strong></td><td><strong>描述</strong></td><td><strong>作用范围</strong></td><td><strong>特点</strong></td></tr><tr><td><strong>allkeys-lru</strong></td><td>移除最近最少使用（LRU）的 key</td><td><strong>整个键空间</strong></td><td><strong>最常用</strong>，适用于 <strong>全局淘汰</strong></td></tr><tr><td><strong>allkeys-lfu</strong></td><td>移除最不经常使用（LFU）的 key</td><td><strong>整个键空间</strong></td><td>可用于数据访问模式明显的场景</td></tr><tr><td><strong>allkeys-random</strong></td><td>随机移除某个 key</td><td><strong>整个键空间</strong></td><td>适用于 <strong>所有 key</strong>，不区分 TTL</td></tr><tr><td><strong>volatile-lfu</strong></td><td>移除最不经常使用（LFU）的 key</td><td><strong>仅限</strong> 设有过期时间的 key</td><td>适用于访问模式有热点的情况</td></tr><tr><td><strong>volatile-random</strong></td><td>随机移除某个 key</td><td><strong>仅限</strong> 设有过期时间的 key</td><td>适用于无规律访问的数据</td></tr><tr><td><strong>volatile-lru</strong></td><td>移除最近最少使用（LRU）的 key</td><td><strong>仅限</strong> 设有过期时间的 key</td><td>只会淘汰 <strong>有 TTL 的 key</strong>，不会动持久 key</td></tr><tr><td><strong>volatile-ttl</strong></td><td>移除<strong>过期时间最早</strong>的 key</td><td><strong>仅限</strong> 设有过期时间的 key</td><td>优先删除 <strong>快要过期的 key</strong>，适用于短周期缓存</td></tr><tr><td><strong>noeviction</strong></td><td>不删除任何 key，内存不足时返回错误</td><td>不移除任何 key</td><td><strong>默认选项</strong>，如果内存满了则写入失败</td></tr></tbody></table>
+
+
 
 📌 示例
 
