@@ -16,8 +16,6 @@ coverY: 0
 * 操作系统会自动把磁盘数据缓存到内存，避免每次都直接访问磁盘，提高访问速度。
 * Kafka 充分利用 PageCache，不需要自己维护缓存，而是让 OS 管理磁盘和内存之间的数据交换。
 
-
-
 **作用**：
 
 * 加速磁盘读取：Kafka 读取消息时，优先从 PageCache 获取数据，避免直接读磁盘，提高吞吐量。
@@ -72,7 +70,7 @@ Kafka 默认充分利用 PageCache，但我们可以调整 OS & Kafka 参数 优
 
 Kafka 默认依赖 OS 自动刷盘（异步刷盘），但可以强制刷盘（减少数据丢失）。
 
-```
+```sh
 log.flush.interval.messages=10000   # 每 10,000 条消息刷盘一次
 log.flush.interval.ms=5000          # 每 5 秒刷盘一次
 ```
@@ -81,7 +79,7 @@ log.flush.interval.ms=5000          # 每 5 秒刷盘一次
 
 Kafka 依赖 OS 缓存大量数据，我们可以增加服务器的可用内存，让 PageCache 存储更多消息，减少磁盘 IO：
 
-```
+```sh
 echo 3 > /proc/sys/vm/drop_caches  # 释放 PageCache
 ```
 
@@ -89,7 +87,7 @@ echo 3 > /proc/sys/vm/drop_caches  # 释放 PageCache
 
 Kafka 预先读取大量数据，减少频繁的磁盘 IO：
 
-```
+```sh
 log.segment.bytes=1073741824   # 调整 Kafka 日志段大小
 log.retention.hours=24         # 调整日志保留时间
 ```

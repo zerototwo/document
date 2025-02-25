@@ -34,7 +34,7 @@ coverY: 0
 #### 示例代码（指定单个分区）：
 
 ```java
-ProducerRecord<String, String> record = new ProducerRecord<>("topic-name", 0, "key", "message");
+    ProducerRecord<String, String> record = new ProducerRecord<>("topic-name", 0, "key", "message");
 producer.send(record);
 ```
 
