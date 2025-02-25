@@ -23,7 +23,7 @@ coverY: 0
 
 📌 SDS 结构
 
-```
+```c
 struct sdshdr {
     int len;    // 已使用字节数
     int free;   // 预分配空间
@@ -47,7 +47,7 @@ struct sdshdr {
 
 📌 链表结构
 
-```
+```c
 struct listNode {
     void *value;
     struct listNode *prev;
@@ -71,7 +71,7 @@ struct listNode {
 
 📌 哈希表结构
 
-```
+```c
 typedef struct dictht {
     dictEntry **table; // 哈希桶数组
     unsigned long size; // 哈希表大小
@@ -105,7 +105,7 @@ typedef struct dictht {
 
 📌 跳表结构
 
-```
+```c
 typedef struct zskiplistNode {
     struct zskiplistNode *backward;
     struct zskiplistLevel {
@@ -140,7 +140,7 @@ typedef struct zskiplistNode {
 
 📌 结构
 
-```
+```c
 struct intset {
     uint32_t encoding; // 编码方式
     uint32_t length;   // 集合元素个数
@@ -170,7 +170,7 @@ struct intset {
 
 📌 QuickList 结构
 
-```
+```c
 struct quicklist {
     quicklistNode *head;
     quicklistNode *tail;
@@ -198,7 +198,7 @@ struct quicklist {
 
 📌 结构
 
-```
+```c
 struct stream {
     rax *rax_tree;
     streamID last_id;
