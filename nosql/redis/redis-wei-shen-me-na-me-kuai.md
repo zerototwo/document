@@ -80,7 +80,7 @@ Redis 支持 Pipeline 批量操作，减少 TCP 交互，提升吞吐量。
 
 ### 示例
 
-```
+```c
 MULTI
 SET key1 value1
 SET key2 value2
@@ -96,7 +96,7 @@ Redis 采用 LRU、LFU 淘汰策略，避免内存溢出（OOM）。
 
 ### 示例
 
-```
+```sh
 CONFIG SET maxmemory 512mb
 CONFIG SET maxmemory-policy allkeys-lru
 ```
@@ -109,7 +109,7 @@ Redis 采用 AOF（日志） + RDB（快照） 持久化策略，确保 数据�
 
 ### 示例
 
-```
+```sh
 appendonly yes
 appendfsync everysec
 ```
@@ -122,7 +122,7 @@ Redis Cluster 支持 分片存储，可扩展至 百万 QPS。
 
 ### 示例
 
-```
+```sh
 redis-cli --cluster create 192.168.1.1:7001 192.168.1.2:7002 192.168.1.3:7003 --cluster-replicas 1
 ```
 
