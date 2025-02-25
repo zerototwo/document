@@ -61,6 +61,23 @@ select(socket_fd + 1, &fds, NULL, NULL, NULL);
 
 2\. 文件描述符数量有限，不适用于大规模连接。
 
+```mermaid
+graph TD;
+    A[用户进程] -->|调用 select/poll| B[复制 FD 集合到内核空间]
+    B -->|遍历所有 FD| C[轮询检查可读/可写]
+    C -->|所有 FD 轮询完成后| D[返回就绪的 FD 列表]
+    D -->|用户进程处理数据| E[继续调用 select/poll]
+    
+    subgraph Select/Poll 工作流程
+        B
+        C
+        D
+        E
+    end
+```
+
+
+
 ### 3.2poll
 
 • 存储结构：链表 形式的 pollfd 结构体数组。
@@ -84,7 +101,7 @@ poll(fds, 2, -1);
 
 2\. 每次调用 poll，都需要遍历所有文件描述符。
 
-### 3,3 epoll（最优）
+### 3.3 epoll（最优）
 
 • 存储方式：红黑树管理 FD，事件触发回调机制（Event-Driven）。
 
@@ -108,6 +125,25 @@ epoll_wait(epfd, &events, 10, -1);
 1\. 基于事件驱动（回调触发），不轮询，提高效率。
 
 2\. 支持大规模 FD，适用于高并发系统（如 Nginx、Kafka）。
+
+```mermaid
+graph TD;
+    A[用户进程] -->|epoll_create 创建 epoll 实例| B[内核空间]
+    B -->|epoll_ctl 注册 FD| C[事件列表]
+    C -->|事件触发| D[epoll_wait 返回就绪的 FD]
+    D -->|用户进程处理数据| E[继续等待事件]
+    
+    subgraph Epoll 工作流程
+        B
+        C
+        D
+        E
+    end
+```
+
+
+
+
 
 ## 4. 适用场景
 
