@@ -48,7 +48,7 @@ IO 多路复用（I/O Multiplexing）是一种 高效处理多个 I/O 连接 的
 
 ### 示例代码
 
-```
+```c
 fd_set fds;
 FD_ZERO(&fds);
 FD_SET(socket_fd, &fds);
@@ -71,7 +71,7 @@ select(socket_fd + 1, &fds, NULL, NULL, NULL);
 
 示例代码
 
-```
+```c
 struct pollfd fds[2];
 fds[0].fd = socket_fd;
 fds[0].events = POLLIN;
@@ -94,7 +94,7 @@ poll(fds, 2, -1);
 
 示例代码
 
-```
+```c
 int epfd = epoll_create(1);
 struct epoll_event ev;
 ev.events = EPOLLIN;
