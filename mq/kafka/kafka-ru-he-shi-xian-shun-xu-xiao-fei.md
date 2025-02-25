@@ -33,7 +33,7 @@ coverY: 0
 
 #### 示例代码（指定单个分区）：
 
-```
+```java
 ProducerRecord<String, String> record = new ProducerRecord<>("topic-name", 0, "key", "message");
 producer.send(record);
 ```
@@ -56,7 +56,7 @@ producer.send(record);
 
 #### 示例代码（使用 Key 保证相同分区）：
 
-```
+```java
 ProducerRecord<String, String> record = new ProducerRecord<>("topic-name", "order_123", "message");
 producer.send(record);
 ```
@@ -82,7 +82,7 @@ producer.send(record);
 
 #### 示例代码（单线程拉取消息）：
 
-```
+```java
 KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
 consumer.subscribe(Collections.singletonList("topic-name"));
 
@@ -112,7 +112,7 @@ while (true) {
 
 #### 示例代码（基于 Redis 排序）：
 
-```
+```java
 String orderKey = "order_123";
 jedis.zadd("order_queue", timestamp, message);
 ```
