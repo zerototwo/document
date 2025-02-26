@@ -91,7 +91,7 @@ sequenceDiagram
 
 ✅ 配置 Slave 优先级
 
-```
+```shell
 slave-priority 1  # 值越小，优先级越高
 ```
 
