@@ -95,10 +95,7 @@ public ConfigurableApplicationContext run(String... args) {
 | ApplicationReadyEvent               | Spring 启动完成，应用完全就绪      | 执行 CommandLineRunner & ApplicationRunner |
 | ApplicationFailedEvent              | 应用启动失败                  | 记录错误日志，执行失败处理                            |
 
-## 5. 事件触发流程
-
-```mermaid
-```
+## 5. 事件触发流程javajava
 
 ```mermaid
 sequenceDiagram
@@ -153,7 +150,7 @@ Spring Boot 提供 两个接口 在 Spring 容器加载完成后执行自定义�
 
 示例
 
-```
+```java
 @Component
 public class MyCommandLineRunner implements CommandLineRunner {
     @Override
@@ -165,7 +162,7 @@ public class MyCommandLineRunner implements CommandLineRunner {
 
 ## 8. SpringApplication.exit() 关闭应用
 
-```
+```java
 int exitCode = SpringApplication.exit(context);
 System.exit(exitCode);
 ```
