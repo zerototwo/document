@@ -124,6 +124,7 @@
     * [事务与锁优化（Transaction & Lock Optimization）](database/mysql/sql-you-hua/shi-wu-yu-suo-you-hua-transaction-lock-optimization.md)
     * [数据库设计优化](database/mysql/sql-you-hua/shu-ju-ku-she-ji-you-hua.md)
     * [并发优化](database/mysql/sql-you-hua/bing-fa-you-hua.md)
+  * [MySQL 优化器的索引成本计算](database/mysql/mysql-you-hua-qi-de-suo-yin-cheng-ben-ji-suan.md)
 
 ## MQ
 
