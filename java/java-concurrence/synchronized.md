@@ -18,9 +18,9 @@ synchronized 关键字可以用于以下三种场景：
 
 ### 1.1 修饰实例方法
 
-🔹 锁住当前实例对象 (this)，所有访问该方法的线程都必须获取该对象的锁。
+&#x20;锁住当前实例对象 (this)，所有访问该方法的线程都必须获取该对象的锁。
 
-```
+```java
 class SynchronizedExample {
     public synchronized void syncMethod() {
         System.out.println(Thread.currentThread().getName() + " 正在执行 synchronized 方法...");
@@ -31,7 +31,7 @@ class SynchronizedExample {
 
 示例
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         SynchronizedExample obj = new SynchronizedExample();
@@ -42,7 +42,7 @@ public class Main {
 }
 ```
 
-📌 运行结果
+运行结果
 
 ```
 线程1 正在执行 synchronized 方法...
@@ -50,17 +50,16 @@ public class Main {
 线程2 正在执行 synchronized 方法...
 ```
 
-📝 说明
+说明
 
-• synchronized 方法锁定 当前实例对象，同一对象的线程只能顺序执行。
-
-• 不同对象的 synchronized 方法不会互斥（即不会同步）。
+* synchronized 方法锁定 当前实例对象，同一对象的线程只能顺序执行。
+* 不同对象的 synchronized 方法不会互斥（即不会同步）。
 
 ### 1.2 修饰静态方法
 
-🔹 锁住 Class 对象，所有线程在访问该类的 synchronized 静态方法时必须获得该 Class 的锁。
+锁住 Class 对象，所有线程在访问该类的 synchronized 静态方法时必须获得该 Class 的锁。
 
-```
+```java
 class SynchronizedStaticExample {
     public static synchronized void staticSyncMethod() {
         System.out.println(Thread.currentThread().getName() + " 正在执行 synchronized 静态方法...");
@@ -71,7 +70,7 @@ class SynchronizedStaticExample {
 
 示例
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         new Thread(SynchronizedStaticExample::staticSyncMethod, "线程1").start();
@@ -82,23 +81,22 @@ public class Main {
 
 📌 运行结果
 
-```
+```java
 线程1 正在执行 synchronized 静态方法...
 （1秒后）
 线程2 正在执行 synchronized 静态方法...
 ```
 
-📝 说明
+说明
 
-• synchronized static 方法锁住的是类对象（Class），所有实例都会受影响。
-
-• 即使是不同实例，仍然会同步执行。
+* synchronized static 方法锁住的是类对象（Class），所有实例都会受影响。
+* 即使是不同实例，仍然会同步执行。
 
 ### 1.3 修饰代码块
 
-🔹 使用自定义对象作为锁，提高灵活性。
+使用自定义对象作为锁，提高灵活性。
 
-```
+```java
 class SynchronizedBlockExample {
     private final Object lock = new Object(); // 自定义锁对象
 
@@ -113,7 +111,7 @@ class SynchronizedBlockExample {
 
 示例
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         SynchronizedBlockExample obj = new SynchronizedBlockExample();
@@ -126,17 +124,16 @@ public class Main {
 
 📌 运行结果
 
-```
+```java
 线程1 正在执行 synchronized 代码块...
 （1秒后）
 线程2 正在执行 synchronized 代码块...
 ```
 
-📝 说明
+说明
 
-• synchronized(lock) 只锁定 lock 这个对象，而不是整个实例。
-
-• 可以使用不同的锁对象，灵活控制多个临界区。
+* synchronized(lock) 只锁定 lock 这个对象，而不是整个实例。
+* 可以使用不同的锁对象，灵活控制多个临界区。
 
 ## 2. synchronized 的底层原理
 
@@ -144,13 +141,13 @@ synchronized 的底层原理是依靠 JVM 内部的对象监视器（Monitor） 
 
 🔹 synchronized 关键字的字节码
 
-```
+```java
 public synchronized void syncMethod() { }
 ```
 
 对应的 JVM 字节码指令：
 
-```
+```java
 0: aload_0
 1: monitorenter  // 进入同步块，获取锁
 2: ...           // 执行方法逻辑
@@ -158,11 +155,10 @@ public synchronized void syncMethod() { }
 4: return
 ```
 
-📌 说明
+说明
 
-• monitorenter 获取锁（如果其他线程占用，则进入等待）。
-
-• monitorexit 释放锁（必须执行，否则可能发生死锁）。
+* monitorenter 获取锁（如果其他线程占用，则进入等待）。
+* monitorexit 释放锁（必须执行，否则可能发生死锁）。
 
 ## 3. synchronized 的优缺点
 
