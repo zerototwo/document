@@ -50,7 +50,7 @@
   * [字节码的增强技术](java/jvm/zi-jie-ma-de-zeng-qiang-ji-shu.md)
   * [类加载机制](java/jvm/lei-jia-zai-ji-zhi.md)
   * [JVM 内存结构](java/jvm/jvm-nei-cun-jie-gou.md)
-  * [Java 内存模型引入](java/jvm/java-nei-cun-mo-xing-yin-ru.md)
+  * [Java 内存模型](java/jvm/java-nei-cun-mo-xing-yin-ru.md)
   * [垃圾回收基础知识](java/jvm/la-ji-hui-shou-ji-chu-zhi-shi.md)
   * [垃圾回收器之G1](java/jvm/la-ji-hui-shou-qi-zhi-g1.md)
   * [垃圾回收器之ZGC](java/jvm/la-ji-hui-shou-qi-zhi-zgc.md)
