@@ -91,6 +91,7 @@
 * [Mysql](database/mysql/README.md)
   * [MySQL逻辑架构](database/mysql/mysql-luo-ji-jia-gou.md)
   * [一条 SQL 是如何执行的？](database/mysql/yi-tiao-sql-shi-ru-he-zhi-xing-de.md)
+  * [MySQL 优化器的索引成本计算](database/mysql/mysql-you-hua-qi-de-suo-yin-cheng-ben-ji-suan.md)
   * [索引相关](database/mysql/suo-yin-xiang-guan/README.md)
     * [什么是索引，为什么需要索引？](database/mysql/suo-yin-xiang-guan/shen-me-shi-suo-yin-wei-shen-me-xu-yao-suo-yin.md)
     * [MySQL 支持哪些索引类型？](database/mysql/suo-yin-xiang-guan/mysql-zhi-chi-na-xie-suo-yin-lei-xing.md)
@@ -124,7 +125,6 @@
     * [事务与锁优化（Transaction & Lock Optimization）](database/mysql/sql-you-hua/shi-wu-yu-suo-you-hua-transaction-lock-optimization.md)
     * [数据库设计优化](database/mysql/sql-you-hua/shu-ju-ku-she-ji-you-hua.md)
     * [并发优化](database/mysql/sql-you-hua/bing-fa-you-hua.md)
-  * [MySQL 优化器的索引成本计算](database/mysql/mysql-you-hua-qi-de-suo-yin-cheng-ben-ji-suan.md)
 
 ## MQ
 
