@@ -122,7 +122,7 @@ public class Main {
 }
 ```
 
-📌 运行结果
+运行结果
 
 ```java
 线程1 正在执行 synchronized 代码块...
@@ -139,7 +139,7 @@ public class Main {
 
 synchronized 的底层原理是依靠 JVM 内部的对象监视器（Monitor） 和 monitorenter / monitorexit 指令 来实现。
 
-🔹 synchronized 关键字的字节码
+synchronized 关键字的字节码
 
 ```java
 public synchronized void syncMethod() { }
