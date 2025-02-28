@@ -55,7 +55,7 @@ DELETE FROM distributed_locks WHERE lock_key = 'resource_lock' AND owner = 'node
 
 #### 1. 使用 SET NX PX（原子操作）
 
-```
+```sh
 SET resource_lock node_1 NX PX 10000  # 10s 过期时间
 ```
 
@@ -65,7 +65,7 @@ SET resource_lock node_1 NX PX 10000  # 10s 过期时间
 
 #### 2. 释放锁（Lua 脚本保证原子性）
 
-```
+```sh
 if redis.call("GET", KEYS[1]) == ARGV[1] then
     return redis.call("DEL", KEYS[1])
 else
@@ -77,7 +77,7 @@ end
 
 #### 3. 续约机制（防止锁过期）
 
-```
+```sh
 if redis.call("GET", KEYS[1]) == ARGV[1] then
     return redis.call("PEXPIRE", KEYS[1], 10000)
 else
@@ -122,7 +122,7 @@ RedLock 机制
 
 #### 1. 创建临时有序节点
 
-```
+```sh
 create -e /locks/resource_lock
 ```
 
