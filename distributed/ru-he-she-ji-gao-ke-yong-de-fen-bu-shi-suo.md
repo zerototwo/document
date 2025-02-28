@@ -12,7 +12,7 @@ description: >-
 
 #### 1. 基于数据库 INSERT 操作
 
-```
+```sql
 INSERT INTO distributed_locks (lock_key, owner, expires_at)
 VALUES ('resource_lock', 'node_1', NOW() + INTERVAL 10 SECOND);
 ```
@@ -23,7 +23,7 @@ VALUES ('resource_lock', 'node_1', NOW() + INTERVAL 10 SECOND);
 
 #### 2. 基于 SELECT ... FOR UPDATE
 
-```
+```sql
 SELECT * FROM distributed_locks WHERE lock_key = 'resource_lock' FOR UPDATE;
 ```
 
@@ -33,7 +33,7 @@ SELECT * FROM distributed_locks WHERE lock_key = 'resource_lock' FOR UPDATE;
 
 #### 3. 释放锁
 
-```
+```sql
 DELETE FROM distributed_locks WHERE lock_key = 'resource_lock' AND owner = 'node_1';
 ```
 
