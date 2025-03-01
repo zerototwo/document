@@ -92,6 +92,7 @@
   * [MySQL逻辑架构](database/mysql/mysql-luo-ji-jia-gou.md)
   * [一条 SQL 是如何执行的？](database/mysql/yi-tiao-sql-shi-ru-he-zhi-xing-de.md)
   * [MySQL 优化器的索引成本计算](database/mysql/mysql-you-hua-qi-de-suo-yin-cheng-ben-ji-suan.md)
+  * [MySQL 主从复制延迟](database/mysql/mysql-zhu-cong-fu-zhi-yan-chi.md)
   * [索引相关](database/mysql/suo-yin-xiang-guan/README.md)
     * [什么是索引，为什么需要索引？](database/mysql/suo-yin-xiang-guan/shen-me-shi-suo-yin-wei-shen-me-xu-yao-suo-yin.md)
     * [MySQL 支持哪些索引类型？](database/mysql/suo-yin-xiang-guan/mysql-zhi-chi-na-xie-suo-yin-lei-xing.md)
