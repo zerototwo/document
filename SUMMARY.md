@@ -118,6 +118,7 @@
     * [共享锁(S 锁)vs排他锁(X 锁)](database/mysql/suo-ji-zhi/gong-xiang-suos-suo-vs-pai-ta-suox-suo.md)
     * [意向共享锁（IS）与意向排他锁（IX）](database/mysql/suo-ji-zhi/yi-xiang-gong-xiang-suo-is-yu-yi-xiang-pai-ta-suo-ix.md)
     * [间隙锁（Gap Lock）、记录锁（Record Lock）、临键锁（Next-Key Lock）](database/mysql/suo-ji-zhi/jian-xi-suo-gap-lock-ji-lu-suo-record-lock-lin-jian-suo-nextkey-lock.md)
+    * [MySQL 的字典锁（Dictionary Lock, DL）](database/mysql/suo-ji-zhi/mysql-de-zi-dian-suo-dictionary-lock-dl.md)
   * [存储引擎](database/mysql/cun-chu-yin-qing/README.md)
     * [页分裂与页合并](database/mysql/cun-chu-yin-qing/ye-fen-lie-yu-ye-he-bing.md)
     * [InnoDB vs. MyISAM](database/mysql/cun-chu-yin-qing/innodb-vs.-myisam.md)
