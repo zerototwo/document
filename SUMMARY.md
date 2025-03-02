@@ -128,6 +128,7 @@
     * [数据库设计优化](database/mysql/sql-you-hua/shu-ju-ku-she-ji-you-hua.md)
     * [并发优化](database/mysql/sql-you-hua/bing-fa-you-hua.md)
   * [MySQL 并行复制](database/mysql/mysql-bing-xing-fu-zhi.md)
+  * [MySQL 并行复制](database/mysql/mysql-bing-xing-fu-zhi-1.md)
 
 ## MQ
 
