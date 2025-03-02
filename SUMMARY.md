@@ -193,6 +193,8 @@
 * [Hazelcast架构](project/hazelcast-jia-gou.md)
 * [Hazelcast 原理解析](project/hazelcast-yuan-li-jie-xi.md)
 * [从 Hazelcast 获取 List\<OrderMap> 到撮合数据的结构变化](project/cong-hazelcast-huo-qu-listordermap-dao-cuo-he-shu-ju-de-jie-gou-bian-hua.md)
+* [Online Problem](project/online-problem/README.md)
+  * [Kafka消费者消费堆积且频繁rebalance](project/online-problem/kafka-xiao-fei-zhe-xiao-fei-dui-ji-qie-pin-fan-rebalance.md)
 
 ## middleware
 
