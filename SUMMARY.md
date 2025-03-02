@@ -197,6 +197,7 @@
   * [Kafka消费者消费堆积且频繁rebalance](project/online-problem/kafka-xiao-fei-zhe-xiao-fei-dui-ji-qie-pin-fan-rebalance.md)
   * [数据库连接池满排查过程](project/online-problem/shu-ju-ku-lian-jie-chi-man-pai-cha-guo-cheng.md)
   * [Hashmap OOM](project/online-problem/hashmap-oom.md)
+  * [RedisMessageListenerContainer 没线程池导致CPU高](project/online-problem/redismessagelistenercontainer-mei-xian-cheng-chi-dao-zhi-cpu-gao.md)
 
 ## middleware
 
