@@ -21,6 +21,32 @@ MySQL 复制是基于 Binlog（Binary Log） 的，通过 异步、半同步、�
 
 MySQL 复制涉及以下三个关键线程：
 
+```mermaid
+graph TD
+    A[Client] -->|写请求 INSERT, UPDATE, DELETE| B[Master DB]
+    B -->|事务写入 Binlog| C[Binary Log Binlog]
+    C -->|I/O 线程读取 Binlog| D[I/O Thread]
+    D -->|传输 Binlog| E[Relay Log 中继日志]
+    E -->|SQL 线程解析 Relay Log| F[SQL Thread]
+    F -->|执行 SQL 语句，更新数据| G[Slave DB]
+    G -->|读请求 SELECT| A
+
+    subgraph MySQL Master
+        B
+        C
+    end
+
+    subgraph MySQL Slave
+        E
+        F
+        G
+    end
+
+    B -.->|主库写操作| G
+```
+
+
+
 ### ① 主库（Master）
 
 * 客户端执行 SQL 语句（INSERT、UPDATE、DELETE）
