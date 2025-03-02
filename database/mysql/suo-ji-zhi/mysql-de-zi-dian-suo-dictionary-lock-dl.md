@@ -54,7 +54,7 @@ SELECT * FROM information_schema.tables;
 | X（排他锁） | 只允许一个事务修改表结构，阻塞所有访问   | ALTER TABLE、DROP TABLE   |
 
 ```mermaid
-%%{init: {'theme': 'cupcake'}}%%
+%%{init: {'theme': 'cupcake', 'themeVariables': {'rough': true}}}%%
 sequenceDiagram
     participant 事务1 as 事务 1 (DML 查询)
     participant 事务2 as 事务 2 (DDL 修改)
@@ -65,7 +65,6 @@ sequenceDiagram
     字典锁-->>事务2: 阻塞 (等待 S 锁释放)
     事务1->>字典锁: 释放 S 锁
     字典锁-->>事务2: 允许获取 X 锁 (执行 ALTER)
-
 ```
 
 ## 3. MySQL 字典锁的影响
