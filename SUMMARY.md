@@ -196,6 +196,7 @@
 * [Online Problem](project/online-problem/README.md)
   * [Kafka消费者消费堆积且频繁rebalance](project/online-problem/kafka-xiao-fei-zhe-xiao-fei-dui-ji-qie-pin-fan-rebalance.md)
   * [数据库连接池满排查过程](project/online-problem/shu-ju-ku-lian-jie-chi-man-pai-cha-guo-cheng.md)
+  * [Hashmap OOM](project/online-problem/hashmap-oom.md)
 
 ## middleware
 
