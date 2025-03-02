@@ -172,6 +172,31 @@ SET GLOBAL rpl_semi_sync_slave_enabled = ON;
 
 ## 4. GTID 复制（全局事务 ID）
 
+```mermaid
+
+sequenceDiagram
+    participant Client
+    participant Master_DB
+    participant Binlog
+    participant IO_Thread
+    participant Relay_Log
+    participant SQL_Thread
+    participant Slave_DB
+
+    Client->>Master_DB: 发送写请求 (INSERT, UPDATE, DELETE)
+    Master_DB->>Binlog: 事务写入 Binlog (生成 GTID)
+    Binlog->>IO_Thread: 传输 Binlog (包含 GTID)
+    IO_Thread->>Relay_Log: 写入 Relay Log
+    Relay_Log->>SQL_Thread: 解析 Relay Log
+    SQL_Thread->>Slave_DB: 执行 SQL，重放 GTID 事务
+    Slave_DB-->>Master_DB: 复制完成，无需手动指定日志位置
+
+    note right of Master_DB: GTID 复制特点: 事务有唯一 ID (GTID)- 无需指定 Binlog 文件 & 位置- 适用于自动故障恢复
+    note right of Slave_DB: 从库直接查找 GTID 并执行自动定位最新事务不依赖 Binlog 位置
+```
+
+
+
 GTID（Global Transaction ID） 是 MySQL 5.6+ 提供的复制方式，每个事务有唯一的 GTID，简化主从切换。
 
 ### 开启 GTID
@@ -191,30 +216,47 @@ SET GLOBAL gtid_mode = ON;
 
 ### ① 一主多从（Master-Slave）
 
-```sql
-Master  ->  Slave1
-        ->  Slave2
+&#x20;
+
+```mermaid
+graph TD
+    A[Master] --> B[Slave 1]
+    A[Master] --> C[Slave 2]
+    A[Master] --> D[Slave 3]
 ```
 
 * 适用于 读写分离，提高查询性能。
 
 ### ② 多级复制（Master → Slave1 → Slave2）
 
-```sql
-Master  ->  Slave1  ->  Slave2
+```mermaid
+graph TD
+    A[Master] --> B[Slave 1]
+    B --> C[Slave 2]
+    C --> D[Slave 3]
 ```
 
 * 适用于 远程备份 或 降低主库压力。
 
 ### ③ 多主复制（Multi-Master）
 
-```java
-Master1 <-> Master2
+```mermaid
+graph TD
+    A[Master 1] <--> B[Master 2]
 ```
 
 * 适用于 高可用场景（但冲突解决复杂）。
 
 ### ④ MySQL Group Replication
+
+```mermaid
+graph TD
+    A[Primary] <--> B[Replica 1]
+    A <--> C[Replica 2]
+    A <--> D[Replica 3]
+```
+
+
 
 ```
 Master1  <-> Master2  <-> Master3
