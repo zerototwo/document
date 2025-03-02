@@ -35,5 +35,5 @@ Description： 诊断报告
 
 ### 问题解决
 
-
+明确问题原因后，很好解决，把一批的最大拉取数量调小即可：`spring.kafka.consumer.max-poll-records`，比默认值500多小一点，调整完配置上线后就解决了，消费延迟很快降低到0了
 
