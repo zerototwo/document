@@ -105,6 +105,7 @@
     * [覆盖索引（Covering Index） vs 索引下推（Index Condition Pushdown, ICP）](database/mysql/suo-yin-xiang-guan/fu-gai-suo-yin-covering-index-vs-suo-yin-xia-tui-index-condition-pushdown-icp.md)
     * [索引跳跃扫描（Index Skip Scan）](database/mysql/suo-yin-xiang-guan/suo-yin-tiao-yue-sao-miao-index-skip-scan.md)
     * [索引合并（Index Merge）](database/mysql/suo-yin-xiang-guan/suo-yin-he-bing-index-merge.md)
+    * [MySQL 使用函数后索引一定会失效吗？](database/mysql/suo-yin-xiang-guan/mysql-shi-yong-han-shu-hou-suo-yin-yi-ding-hui-shi-xiao-ma.md)
   * [事务](database/mysql/shi-wu/README.md)
     * [MySQL 事务的 原子性 (Atomicity) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-yuan-zi-xing-atomicity-shi-xian-yuan-li.md)
     * [MySQL 事务的 一致性 (Consistency) 实现原理](database/mysql/shi-wu/mysql-shi-wu-de-yi-zhi-xing-consistency-shi-xian-yuan-li.md)
