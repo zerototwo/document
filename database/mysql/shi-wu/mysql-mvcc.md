@@ -2,6 +2,9 @@
 description: >-
   MVCC（Multi-Version Concurrency Control，多版本并发控制）是一种 非锁定并发控制机制， InnoDB 存储引擎 通过
   MVCC 提高并发性能，同时保证事务的一致性。
+cover: >-
+  https://images.unsplash.com/photo-1735900415817-3892b83ddd8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwMzY0ODR8&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # MySQL MVCC
