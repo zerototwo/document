@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1738102449463-638de653a808?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMDczNjB8&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # 垃圾回收器之ZGC
 
 ZGC（Z Garbage Collector）是 JDK 11 引入的 超低延迟垃圾回收器，目标是：
