@@ -206,6 +206,7 @@
 * [position](project/position/README.md)
   * [仓位逻辑](project/position/cang-wei-luo-ji.md)
 * [撮合之后的操作](project/cuo-he-zhi-hou-de-cao-zuo.md)
+* [Nacos 配置更新原理](project/nacos-pei-zhi-geng-xin-yuan-li.md)
 
 ## middleware
 
