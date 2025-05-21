@@ -206,10 +206,11 @@
 * [position](project/position/README.md)
   * [仓位逻辑](project/position/cang-wei-luo-ji.md)
 * [撮合之后的操作](project/cuo-he-zhi-hou-de-cao-zuo.md)
-* [Nacos 配置更新原理](project/nacos-pei-zhi-geng-xin-yuan-li.md)
+* [Hazelcast 社区版和企业版的区别](project/hazelcast-she-qu-ban-he-qi-ye-ban-de-qu-bie.md)
 
 ## middleware
 
 * [Netty](middleware/netty/README.md)
   * [Netty TCP 粘包/拆包的原因及解决方案](middleware/netty/netty-tcp-nian-bao-chai-bao-de-yuan-yin-ji-jie-jue-fang-an.md)
-* [Page 1](middleware/page-1.md)
+* [Nacos](middleware/page-1.md)
+* [Nacos 配置更新原理](middleware/nacos-pei-zhi-geng-xin-yuan-li.md)
