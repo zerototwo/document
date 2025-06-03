@@ -218,3 +218,4 @@
 ## 计算机基础
 
 * [Http2](ji-suan-ji-ji-chu/http2.md)
+* [Reactor 多种模型](ji-suan-ji-ji-chu/reactor-duo-zhong-mo-xing.md)
