@@ -213,6 +213,7 @@
 * [Netty](middleware/netty/README.md)
   * [Netty TCP 粘包/拆包的原因及解决方案](middleware/netty/netty-tcp-nian-bao-chai-bao-de-yuan-yin-ji-jie-jue-fang-an.md)
   * [Reactor 多种模型](middleware/netty/reactor-duo-zhong-mo-xing.md)
+  * [Netty Reactor模型](middleware/netty/netty-reactor-mo-xing.md)
 * [Nacos](middleware/page-1.md)
 * [Nacos 配置更新原理](middleware/nacos-pei-zhi-geng-xin-yuan-li.md)
 

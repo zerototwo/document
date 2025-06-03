@@ -12,13 +12,13 @@ coverY: 0
 
 ## 1.RocketMQ的基础消息模型，一个简单的Pub/Sub模型 <a href="#rocketmq-de-ji-chu-xiao-xi-mo-xing-yi-ge-jian-dan-de-pubsub-mo-xing" id="rocketmq-de-ji-chu-xiao-xi-mo-xing-yi-ge-jian-dan-de-pubsub-mo-xing"></a>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 在**基于主题**的系统中，消息被发布到主题或命名通道上。消费者将收到其订阅主题上的所有消息，生产者负责定义订阅者所订阅的消息类别。这是一个基础的概念模型，而在实际的应用中，结构会更复杂。例如为了支持高并发和水平扩展，中间的消息主题需要进行分区，同一个Topic会有多个生产者，同一个信息会有多个消费者，消费者之间要进行负载均衡等。
 
 ## 2.RocketMQ 扩展后的消息模型 <a href="#rocketmq-kuo-zhan-hou-de-xiao-xi-mo-xing" id="rocketmq-kuo-zhan-hou-de-xiao-xi-mo-xing"></a>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 3.RocketMQ的部署模型
 
