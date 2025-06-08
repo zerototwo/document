@@ -222,6 +222,7 @@
   * [Disruptor 之所以能做到高性能、高吞吐，核心原因](middleware/disruptor/disruptor-zhi-suo-yi-neng-zuo-dao-gao-xing-neng-gao-tun-tu-he-xin-yuan-yin.md)
   * [Disruptor 的等待策略](middleware/disruptor/disruptor-de-deng-dai-ce-le.md)
   * [高效的生产者-消费者模型](middleware/disruptor/gao-xiao-de-sheng-chan-zhe-xiao-fei-zhe-mo-xing.md)
+  * [内存屏障与顺序保证](middleware/disruptor/nei-cun-ping-zhang-yu-shun-xu-bao-zheng.md)
 
 ## 计算机基础
 
