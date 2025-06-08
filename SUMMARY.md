@@ -219,6 +219,7 @@
 * [Disruptor](middleware/disruptor/README.md)
   * [Disruptor为什么那么快？](middleware/disruptor/disruptor-wei-shen-me-na-me-kuai.md)
   * [Disruptor架构](middleware/disruptor/disruptor-jia-gou.md)
+  * [Disruptor 之所以能做到高性能、高吞吐，核心原因](middleware/disruptor/disruptor-zhi-suo-yi-neng-zuo-dao-gao-xing-neng-gao-tun-tu-he-xin-yuan-yin.md)
 
 ## 计算机基础
 
