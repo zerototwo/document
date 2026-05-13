@@ -26,8 +26,7 @@ coverY: 0
 
 如果多个线程对同一个共享数据进行访问而不采取同步操作的话，那么操作的结果是不一致的。
 
-以下代码演示了 1000 个线程同时对 cnt 执行自增操作，操作结束之后它的值有可能小于 1000。\
-
+以下代码演示了 1000 个线程同时对 cnt 执行自增操作，操作结束之后它的值有可能小于 1000。<br>
 
 ```java
 public class ThreadUnsafeExample {
@@ -201,14 +200,13 @@ Java提供了volatile关键字来保证可见性。
 在一个线程内，在程序前面的操作先行发生于后面的操作。\
 ![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
-\
-
+<br>
 
 #### 5.1.2**管程锁定规则**
 
 #### 一个 unlock 操作先行发生于后面对同一个锁的 lock 操作。
 
-#### <img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"> 
+#### <img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"><br>
 
 #### 5.1.3**volatile 变量规则**
 
@@ -239,8 +237,7 @@ Thread 对象的结束先行发生于 join() 方法返回。
 
 #### 5.1.8传递性
 
-如果操作 A 先行发生于操作 B，操作 B 先行发生于操作 C，那么操作 A 先行发生于操作 C。\
-
+如果操作 A 先行发生于操作 B，操作 B 先行发生于操作 C，那么操作 A 先行发生于操作 C。<br>
 
 ## 6.线程安全: 不是一个非真即假的命题 <a href="#xian-cheng-an-quan-bu-shi-yi-ge-fei-zhen-ji-jia-de-ming-ti" id="xian-cheng-an-quan-bu-shi-yi-ge-fei-zhen-ji-jia-de-ming-ti"></a>
 

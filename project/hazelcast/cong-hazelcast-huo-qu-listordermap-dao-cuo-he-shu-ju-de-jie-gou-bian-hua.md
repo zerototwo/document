@@ -139,8 +139,7 @@ public List<TradeLog> matchOrders(Map<BigDecimal, TreeMap<Long, OrderMap>> depth
 
 4️⃣ 交易记录（TradeLog）
 
-\
-
+<br>
 
 撮合成功后，订单转换为 TradeLog 结构，存入数据库。
 
@@ -179,8 +178,7 @@ public class TradeLog {
 
 ## 6.设计优化点
 
-\
-
+<br>
 
 ✅ 数据结构保证价格优先 + 时间优先
 
@@ -188,8 +186,7 @@ public class TradeLog {
 
 • TreeMap\<Long, OrderMap> 时间排序，保证 FIFO 撮合。
 
-\
-
+<br>
 
 ✅ 撮合算法高效
 
@@ -197,8 +194,7 @@ public class TradeLog {
 
 • O(log N) 复杂度，适合高频撮合
 
-\
-
+<br>
 
 ✅ 交易记录持久化
 
@@ -216,7 +212,6 @@ public class TradeLog {
 
 • 存入 TradeLog（交易记录）
 
-\
-
+<br>
 
 🚀 这种设计可高效支持交易撮合，实现高频交易撮合系统！ 🎯

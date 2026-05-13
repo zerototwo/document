@@ -5,7 +5,7 @@ cover: >-
 coverY: 0
 ---
 
-# Spring Bean 的生命周期详细讲解
+# Spring Bean 的生命周期
 
 本文将详细解析 Spring Bean 生命周期，并提供 源码解析、生命周期流程图和示例代码。
 
@@ -96,7 +96,7 @@ public class MyBean implements BeanNameAware {
 
 📌 关键点：用于 在 Bean 初始化前获取 Bean 名称。
 
-### 2.4 BeanFactoryAware（获取 BeanFactory） 
+### 2.4 BeanFactoryAware（获取 BeanFactory）<br>
 
 如果 Bean 实现了 BeanFactoryAware，Spring 回调 setBeanFactory() 传入 BeanFactory：
 

@@ -152,7 +152,6 @@ graph TD;
 2. 先标记垃圾最多的 Region（Garbage First）
 3. Minor GC 处理年轻代，Mixed GC 处理老年代
 4. 避免 Full GC，优化 STW 时间
-5. 可通过 -XX:MaxGCPauseMillis 控制停顿\
-
+5. 可通过 -XX:MaxGCPauseMillis 控制停顿<br>
 
 🚀 G1 GC 适用于大内存 & 低延迟场景，是 CMS 的替代方案！ 🎯

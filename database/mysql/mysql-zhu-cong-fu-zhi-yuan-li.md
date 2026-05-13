@@ -287,8 +287,7 @@ STOP SLAVE;
 START SLAVE;
 ```
 
-修复复制错误\
-
+修复复制错误<br>
 
 如果 SHOW SLAVE STATUS 显示：
 

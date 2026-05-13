@@ -234,7 +234,6 @@ SET GLOBAL binlog_transaction_dependency_tracking = 'WRITESET';
 
 • 避免非事务性 SQL，确保主从数据一致。
 
-\
-
+<br>
 
 如果你有特定的业务场景，欢迎讨论更详细的优化方案！🔥🚀

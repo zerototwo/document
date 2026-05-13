@@ -34,13 +34,11 @@ EXPLAIN SELECT * FROM users WHERE LOWER(email) = 'test@example.com';
 
 ✅ 方法 1：改写查询逻辑
 
-\
-
+<br>
 
 避免在索引列上使用函数，而是将计算逻辑移到查询之外。
 
-\
-
+<br>
 
 🔹 错误示例
 
@@ -52,8 +50,7 @@ SELECT * FROM users WHERE YEAR(created_at) = 2024;
 
 • YEAR(created\_at) 会对 每一行 进行计算，导致 索引无法使用。
 
-\
-
+<br>
 
 🔹 正确写法
 
@@ -65,13 +62,11 @@ SELECT * FROM users WHERE created_at >= '2024-01-01' AND created_at < '2025-01-0
 
 ✅ 方法 2：使用 函数索引（Functional Index）（MySQL 8.0+）
 
-\
-
+<br>
 
 MySQL 8.0+ 支持 函数索引（Generated Index），可以让函数计算后的值也存储在索引中，从而 避免索引失效。
 
-\
-
+<br>
 
 🔹 创建函数索引
 
@@ -89,13 +84,11 @@ SELECT * FROM users WHERE LOWER(email) = 'test@example.com';
 
 ✅ 方法 3：使用存储列（Generated Column）
 
-\
-
+<br>
 
 MySQL 5.7+ 允许创建虚拟列，存储计算后的值，并对其建立索引。
 
-\
-
+<br>
 
 🔹 创建存储列并建立索引
 
@@ -137,8 +130,7 @@ SELECT * FROM users WHERE email_lower = 'test@example.com';
 
 • 隐式类型转换（如 WHERE id = '123'，id 是 INT）。
 
-\
-
+<br>
 
 ✅ 避免索引失效的方法
 
@@ -150,7 +142,6 @@ SELECT * FROM users WHERE email_lower = 'test@example.com';
 
 4\. 优化 WHERE 条件，让 MySQL 直接使用索引值 进行查询。
 
-\
-
+<br>
 
 💡 索引优化是数据库性能优化的关键，避免索引失效可以大幅提高查询效率！ 🚀

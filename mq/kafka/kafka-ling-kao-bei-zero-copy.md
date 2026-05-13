@@ -95,7 +95,6 @@ sendfile(socket_fd, fd, NULL, file_size);
 
 ## 6.结论
 
-💡 Kafka 采用 Linux sendfile() 进行零拷贝，让数据 直接从 PageCache 进入 Socket 发送到网络，避免传统 I/O 的多次数据拷贝和 CPU 负担，极大提升了数据传输的吞吐量 & 处理效率。\
-
+💡 Kafka 采用 Linux sendfile() 进行零拷贝，让数据 直接从 PageCache 进入 Socket 发送到网络，避免传统 I/O 的多次数据拷贝和 CPU 负担，极大提升了数据传输的吞吐量 & 处理效率。<br>
 
 👉 零拷贝（Zero Copy）是 Kafka 高性能的关键技术之一，确保 Kafka 在海量数据流转时保持超高吞吐 & 低延迟！

@@ -19,8 +19,7 @@ Disruptor 的等待策略（WaitStrategy）决定了 消费者在没有新事件
 
 ### 主要策略原理简析
 
-\
-
+<br>
 
 #### 1. BlockingWaitStrategy
 
@@ -29,8 +28,7 @@ Disruptor 的等待策略（WaitStrategy）决定了 消费者在没有新事件
 * 缺点：由于线程切换，延迟较高
 * 典型用法：通用业务，异步日志
 
-\
-
+<br>
 
 #### 2. SleepingWaitStrategy
 
@@ -39,8 +37,7 @@ Disruptor 的等待策略（WaitStrategy）决定了 消费者在没有新事件
 * 缺点：延迟不如自旋型低
 * 典型用法：延迟一般，资源受限
 
-\
-
+<br>
 
 #### 3. YieldingWaitStrategy
 
@@ -49,8 +46,7 @@ Disruptor 的等待策略（WaitStrategy）决定了 消费者在没有新事件
 * 缺点：CPU 占用较高，单核性能下降
 * 典型用法：高性能交易、低延迟场景
 
-\
-
+<br>
 
 #### 4. BusySpinWaitStrategy
 
@@ -59,8 +55,7 @@ Disruptor 的等待策略（WaitStrategy）决定了 消费者在没有新事件
 * 缺点：CPU 占用极高，只能在核心线程独占时用
 * 典型用法：极端低延迟、高频场景（如高频交易）
 
-\
-
+<br>
 
 #### 5. PhasedBackoffWaitStrategy
 

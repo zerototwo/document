@@ -6,15 +6,13 @@ coverY: 0
 
 # 撮合系统数据存储方案 (Hazelcast + Redis)
 
-\
-
+<br>
 
 本方案基于 Hazelcast (IMap 分布式存储) + Redis (缓存 & 低延迟推送) + Kafka (事件驱动)，确保高并发交易的 实时性 和 数据一致性。
 
 📌 Hazelcast & Redis 存储结构
 
-\
-
+<br>
 
 Hazelcast 用于 持久化存储，Redis 用于 缓存和推送。
 
@@ -30,8 +28,7 @@ Hazelcast 用于 持久化存储，Redis 用于 缓存和推送。
 
 📌 数据存储 & 示例代码
 
-\
-
+<br>
 
 1\. K线数据存储
 

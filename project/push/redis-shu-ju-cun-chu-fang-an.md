@@ -10,8 +10,7 @@
 
 • 支持高效插入 & 查询 (ZADD 添加、ZRANGE 取最近记录)。
 
-• 适用于 按时间筛选，避免 LIST 结构遍历查询的开销。\
-
+• 适用于 按时间筛选，避免 LIST 结构遍历查询的开销。<br>
 
 ✅ 示例存储
 
@@ -59,8 +58,7 @@ LTRIM market:trades:BTCUSDT 0 999  # 仅保留最近 1000 条成交记录
 
 • 避免 JSON 解析开销，每个字段可单独更新 (HSET 只更新杠杆字段，不影响其他字段)。
 
-\
-
+<br>
 
 ✅ 示例存储
 
@@ -77,8 +75,7 @@ HSET contract:BTCUSDT min_order_size 0.001
 
 • 避免 JSON 解析，查询 & 更新效率更高 (HSET 更新状态字段)。
 
-\
-
+<br>
 
 ✅ 示例存储
 
@@ -89,8 +86,7 @@ HSET user:orders:1001 filled_amount 0.5
 
 ## 6.用户持仓（HASH - Key-Value Mapping）
 
-\
-
+<br>
 
 📌 理由：
 
@@ -98,8 +94,7 @@ HSET user:orders:1001 filled_amount 0.5
 
 • 例如 持仓盈亏、保证金等频繁更新，无需解析整个 JSON。
 
-\
-
+<br>
 
 ✅ 示例存储
 

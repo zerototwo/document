@@ -12,8 +12,7 @@ ZGC（Z Garbage Collector）是 JDK 11 引入的 超低延迟垃圾回收器，�
 2. GC 停顿时间 ≤1ms
 3. 全并发回收，避免 STW（Stop-The-World）
 4. 使用指针染色（Colored Pointers）+ 读屏障（Load Barrier）优化对象访问
-5. 无碎片整理，避免 Full GC\
-
+5. 无碎片整理，避免 Full GC<br>
 
 🚀 ZGC 适用于大内存（>100GB）+ 低延迟（≤1ms）的应用场景，如金融、高频交易、AI 计算。
 
@@ -106,8 +105,7 @@ graph TD;
 
 • STW 期间，全局更新所有指针，开销大，影响应用性能。
 
-\
-
+<br>
 
 ### ZGC 解决方案
 
@@ -157,7 +155,6 @@ java -XX:+UseZGC -Xmx16g -XX:SoftMaxHeapSize=8g -XX:ZUncommitDelay=300
 3. 全并发 GC，99% 的 GC 过程不影响应用线程
 4. 指针染色 + 读屏障，避免 STW
 5. 最大支持 16TB 内存
-6. 适用于大规模、低延迟应用（金融、电商、游戏）\
-
+6. 适用于大规模、低延迟应用（金融、电商、游戏）<br>
 
 ZGC 是目前 Java 最先进的 GC，适用于超大内存 & 低延迟应用！&#x20;

@@ -72,4 +72,4 @@ coverY: 0
 
 • 事务管理器必须匹配（如 JPA 使用 JpaTransactionManager）。
 
-\
+<br>

@@ -20,8 +20,7 @@ Disruptor 在极高并发环境下保证数据可见性和顺序性，核心依�
 
 ### 3. Disruptor 如何使用内存屏障？
 
-\
-
+<br>
 
 核心点：
 
@@ -40,8 +39,7 @@ Disruptor 在极高并发环境下保证数据可见性和顺序性，核心依�
    * 首先检查 Sequence 序号（volatile read）。
    * 一旦读到目标序号，才能读取数据，JMM 保证此时一定能看到最新数据。
 
-\
-
+<br>
 
 （注意：顺序保证的前提是 RingBuffer 的 slot 对象不可变或只被单线程修改，否则数据可见性可能失效）
 
@@ -75,8 +73,7 @@ sequenceDiagram
 
 ### 7. 一句话总结
 
-\
-
+<br>
 
 > Disruptor 靠 Sequence 的 volatile 内存屏障，实现了高性能下的可见性和顺序性，无需锁也能安全并发。
 

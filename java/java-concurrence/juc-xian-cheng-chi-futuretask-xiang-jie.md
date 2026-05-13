@@ -447,4 +447,4 @@ public class FutureTaskWithThreadExample {
 
 三种方式都能实现异步执行并获取执行结果，核心区别主要在于对线程的管理方式（线程池 vs. 手动创建）以及对任务控制的灵活度。
 
-\
+<br>

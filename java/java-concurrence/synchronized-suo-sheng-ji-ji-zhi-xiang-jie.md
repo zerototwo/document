@@ -11,8 +11,7 @@ coverY: 0
 * 无锁（No Lock）
 * 偏向锁（Biased Locking）
 * 轻量级锁（Lightweight Locking）
-* 重量级锁（Heavyweight Locking）\
-
+* 重量级锁（Heavyweight Locking）<br>
 
 ## 1. 锁的四个状态
 
@@ -63,8 +62,7 @@ public class BiasedLockExample {
 
 • 线程尝试通过 CAS（Compare And Swap）修改对象头获取锁，避免线程阻塞。
 
-\
-
+<br>
 
 🌟 示例
 
@@ -106,8 +104,7 @@ public class LightweightLockExample {
 
 • 线程竞争时，自旋失败，JVM 通过操作系统 Mutex 机制阻塞线程。
 
-\
-
+<br>
 
 🌟 示例
 

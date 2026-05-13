@@ -53,8 +53,7 @@ SHOW VARIABLES LIKE 'binlog_format';
 
 * ROW（行格式，默认）：适用于高并发但 Binlog 体积大，影响复制效率。
 * MIXED（混合模式）：适用于大多数场景。
-* STATEMENT（语句格式）：Binlog 小，但某些语句无法复制。\
-
+* STATEMENT（语句格式）：Binlog 小，但某些语句无法复制。<br>
 
 可以切换为 MIXED 以减少 Binlog 开销：
 

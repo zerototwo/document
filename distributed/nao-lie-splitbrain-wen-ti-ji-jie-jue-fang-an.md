@@ -224,7 +224,6 @@ kubectl delete pod etcd-1  # 强制清理旧 Leader
 
 🔹 Kubernetes + Etcd 采用 STONITH，直接强制杀死旧 Leader。
 
-\
-
+<br>
 
 ✅ 不同系统采用不同策略，防止脑裂导致数据不一致 🚀。

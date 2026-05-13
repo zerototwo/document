@@ -15,8 +15,7 @@ Hazelcast 主要用于存储 实时撮合相关数据，作为高性能分布式
 
 1️⃣ 订单簿（Order Book）
 
-\
-
+<br>
 
 📌 理由
 
@@ -30,8 +29,7 @@ Hazelcast 主要用于存储 实时撮合相关数据，作为高性能分布式
 
 • asks (卖单按价格升序)
 
-\
-
+<br>
 
 ✅ Hazelcast 结构
 
@@ -48,8 +46,7 @@ orderBook.get("BTCUSDT").put(new BigDecimal("9600"), new Order(124, 1.0, "SELL")
 
 2️⃣ 用户订单（User Orders）
 
-\
-
+<br>
 
 📌 理由
 
@@ -57,8 +54,7 @@ orderBook.get("BTCUSDT").put(new BigDecimal("9600"), new Order(124, 1.0, "SELL")
 
 • Hazelcast 支持分布式事务，保证撮合后订单状态一致。
 
-\
-
+<br>
 
 ✅ Hazelcast 结构
 
@@ -82,8 +78,7 @@ userOrders.put(1001L, order);
 
 3️⃣ 撮合队列（Matching Queue）
 
-\
-
+<br>
 
 📌 理由
 
@@ -91,8 +86,7 @@ userOrders.put(1001L, order);
 
 • FIFO 结构，保证订单按时间顺序处理
 
-\
-
+<br>
 
 ✅ Hazelcast 结构
 
@@ -114,8 +108,7 @@ ShortOrderDTO order = matchingQueue.poll();
 
 4️⃣ 用户持仓（User Positions）
 
-\
-
+<br>
 
 📌 理由
 
@@ -123,8 +116,7 @@ ShortOrderDTO order = matchingQueue.poll();
 
 • 高频查询保证金、盈亏、杠杆信息
 
-\
-
+<br>
 
 ✅ Hazelcast 结构
 
@@ -148,8 +140,7 @@ userPositions.put(1001L, position);
 
 5️⃣ 用户账户（User Balance）
 
-\
-
+<br>
 
 📌 理由
 
@@ -157,8 +148,7 @@ userPositions.put(1001L, position);
 
 • Hazelcast 支持分布式锁，保证高并发一致性。
 
-\
-
+<br>
 
 ✅ Hazelcast 结构
 
@@ -182,8 +172,7 @@ userBalances.put(1001L, balance);
 
 6️⃣ 市场数据（Market Data）
 
-\
-
+<br>
 
 📌 理由
 
@@ -191,8 +180,7 @@ userBalances.put(1001L, balance);
 
 • K线、盘口深度、成交数据存储
 
-\
-
+<br>
 
 ✅ Hazelcast 结构
 
