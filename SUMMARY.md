@@ -210,6 +210,7 @@
   * [ADL 机制（Auto-Deleveraging）和爆仓流程](project/jiao-yi-suo/adl-ji-zhi-autodeleveraging-he-bao-cang-liu-cheng.md)
   * [撮合之后的操作](project/jiao-yi-suo/cuo-he-zhi-hou-de-cao-zuo.md)
 * [你挑一两个比较有代表性的项目给我说说](project/ni-tiao-yi-liang-ge-bi-jiao-you-dai-biao-xing-de-xiang-mu-gei-wo-shuo-shuo.md)
+* [链路追踪原理](project/lian-lu-zhui-zong-yuan-li.md)
 
 ## middleware
 
