@@ -148,8 +148,6 @@
   * [Kafka 零拷贝（Zero Copy）](mq/kafka/kafka-ling-kao-bei-zero-copy.md)
   * [Kafka 存储机制](mq/kafka/kafka-cun-chu-ji-zhi.md)
   * [Kafka 高水位（High Watermark）与 Leader Epoch](mq/kafka/kafka-gao-shui-wei-high-watermark-yu-leader-epoch.md)
-  * [下单币对一个topic还是多个](mq/kafka/xia-dan-bi-dui-yi-ge-topic-hai-shi-duo-ge.md)
-  * [跟单下单后，立即平仓](mq/kafka/gen-dan-xia-dan-hou-li-ji-ping-cang.md)
 * [如何保证 MQ 的幂等性？](mq/ru-he-bao-zheng-mq-de-mi-deng-xing.md)
 * [RocketMQ 事务消息 vs Kafka 事务消息？](mq/rocketmq-shi-wu-xiao-xi-vs-kafka-shi-wu-xiao-xi.md)
 * [为什么要使用消息队列？](mq/wei-shen-me-yao-shi-yong-xiao-xi-dui-lie.md)
@@ -217,6 +215,8 @@
 * [项目](project/xiang-mu/README.md)
   * [高级下单分时](project/xiang-mu/gao-ji-xia-dan-fen-shi.md)
   * [你挑一两个比较有代表性的项目给我说说](project/xiang-mu/ni-tiao-yi-liang-ge-bi-jiao-you-dai-biao-xing-de-xiang-mu-gei-wo-shuo-shuo.md)
+  * [跟单下单后，立即平仓](project/xiang-mu/gen-dan-xia-dan-hou-li-ji-ping-cang.md)
+  * [下单币对一个topic还是多个](project/xiang-mu/xia-dan-bi-dui-yi-ge-topic-hai-shi-duo-ge.md)
 
 ## middleware
 
