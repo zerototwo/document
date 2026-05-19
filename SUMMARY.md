@@ -82,9 +82,9 @@
   * [Spring 如何解决循环依赖（Circular Dependency）](spring-framework/spring/spring-ru-he-jie-jue-xun-huan-yi-lai-circular-dependency.md)
   * [BeanFactory 与 FactoryBean 的关系](spring-framework/spring/beanfactory-yu-factorybean-de-guan-xi.md)
   * [Spring @Transactional 事务失效的所有场景](spring-framework/spring/page-1.md)
-  * [Spring Boot 自动装配原理（AutoConfiguration）](spring-framework/spring/spring-boot-zi-dong-zhuang-pei-yuan-li-autoconfiguration.md)
-  * [SpringApplication 生命周期详解](spring-framework/spring/springapplication-sheng-ming-zhou-qi-xiang-jie.md)
-* [Springboot](spring-framework/springboot.md)
+* [Springboot](spring-framework/springboot/README.md)
+  * [Spring Boot 自动装配原理（AutoConfiguration）](spring-framework/springboot/spring-boot-zi-dong-zhuang-pei-yuan-li-autoconfiguration.md)
+  * [SpringApplication 生命周期详解](spring-framework/springboot/springapplication-sheng-ming-zhou-qi-xiang-jie.md)
 
 ## database
 
