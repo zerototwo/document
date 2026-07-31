@@ -2,6 +2,10 @@
 
 * [Welcome](README.md)
 
+## GO
+
+* [三色标记算法](go/san-se-biao-ji-suan-fa.md)
+
 ## JAVA
 
 * [Java-Basics](java/java-basics/README.md)
