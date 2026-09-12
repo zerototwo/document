@@ -15,7 +15,16 @@
   * [04 · Demo：定时消息与生命周期](framework/akka/04-demo-ding-shi-xiao-xi-yu-sheng-ming-zhou-qi.md)
   * [05 · Demo：异常监督、重启与停止](framework/akka/05-demo-yi-chang-jian-du-chong-qi-yu-ting-zhi.md)
   * [06 · Akka 常见问题与面试知识点](framework/akka/06-akka-chang-jian-wen-ti-yu-mian-shi-zhi-shi-dian.md)
-* [Disruptor](framework/disruptor.md)
+* [Disruptor](framework/disruptor/README.md)
+  * [01 · Disruptor 是什么与核心概念](framework/disruptor/01-disruptor-shi-shen-me-yu-he-xin-gai-nian.md)
+  * [02 · Demo：RingBuffer 与基础生产消费](framework/disruptor/02-demoringbuffer-yu-ji-chu-sheng-chan-xiao-fei.md)
+  * [03 · Demo：慢消费与缓冲区积压](framework/disruptor/03-demo-man-xiao-fei-yu-huan-chong-qu-ji-ya.md)
+  * [04 · Demo：多生产者并发发布](framework/disruptor/04-demo-duo-sheng-chan-zhe-bing-fa-fa-bu.md)
+  * [05 · Demo：广播消费与工作池](framework/disruptor/05-demo-guang-bo-xiao-fei-yu-gong-zuo-chi.md)
+  * [06 · Demo：消费者依赖链](framework/disruptor/06-demo-xiao-fei-zhe-yi-lai-lian.md)
+  * [07 · Demo：异常处理与关闭](framework/disruptor/07-demo-yi-chang-chu-li-yu-guan-bi.md)
+  * [08 · Demo：按账户分片](framework/disruptor/08-demo-an-zhang-hu-fen-pian.md)
+  * [09 · Disruptor 常见问题与面试知识点](framework/disruptor/09-disruptor-chang-jian-wen-ti-yu-mian-shi-zhi-shi-dian.md)
 
 ## JAVA
 
