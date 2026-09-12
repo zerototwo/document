@@ -15,6 +15,7 @@
   * [04 · Demo：定时消息与生命周期](framework/akka/04-demo-ding-shi-xiao-xi-yu-sheng-ming-zhou-qi.md)
   * [05 · Demo：异常监督、重启与停止](framework/akka/05-demo-yi-chang-jian-du-chong-qi-yu-ting-zhi.md)
   * [06 · Akka 常见问题与面试知识点](framework/akka/06-akka-chang-jian-wen-ti-yu-mian-shi-zhi-shi-dian.md)
+* [Disruptor](framework/disruptor.md)
 
 ## JAVA
 
