@@ -155,6 +155,8 @@
     * [事务与锁优化（Transaction & Lock Optimization）](database/mysql/sql-you-hua/shi-wu-yu-suo-you-hua-transaction-lock-optimization.md)
     * [数据库设计优化](database/mysql/sql-you-hua/shu-ju-ku-she-ji-you-hua.md)
     * [并发优化](database/mysql/sql-you-hua/bing-fa-you-hua.md)
+  * [生产sql优化](database/mysql/sheng-chan-sql-you-hua/README.md)
+    * [一次 gRPC 超时排查：用 Arthas 和 MySQL 执行计划定位慢查询](database/mysql/sheng-chan-sql-you-hua/yi-ci-grpc-chao-shi-pai-cha-yong-arthas-he-mysql-zhi-xing-ji-hua-ding-wei-man-cha-xun.md)
 
 ## MQ
 
